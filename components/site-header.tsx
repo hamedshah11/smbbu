@@ -55,7 +55,11 @@ function buildNavItems(institutes: Institute[], departments: string[]): NavItem[
     {
       label: "Institutes",
       href: "/#institutes",
-      dropdown: institutes.map((i) => ({ label: i.name, href: `/institutes/${i.slug}` })),
+      dropdown: institutes.map((i) =>
+        i.website_url
+          ? { label: i.name, href: i.website_url, external: true }
+          : { label: i.name, href: `/institutes/${i.slug}` },
+      ),
     },
     {
       label: "Faculty",

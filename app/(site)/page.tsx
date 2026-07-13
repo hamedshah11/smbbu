@@ -179,23 +179,43 @@ export default async function HomePage() {
             </h2>
           </div>
           <div className="mt-7 grid grid-cols-1 gap-x-14 gap-y-0 md:grid-cols-2">
-            {institutes.map((institute) => (
-              <Link
-                key={institute.id}
-                href={`/institutes/${institute.slug}`}
-                className="flex items-center gap-4 border-b border-hairline-on-tint-strong py-4 transition-colors hover:bg-bg-hover-row-alt"
-              >
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-green-primary text-[9px] font-bold text-green-primary">
-                  {institute.code}
-                </span>
-                <span className="font-display text-[0.9375rem] font-bold text-text-primary">
-                  {institute.name}
-                </span>
-                <span className="ml-auto shrink-0 font-mono text-[0.6875rem] uppercase tracking-[0.05em] text-text-muted">
-                  {institute.city}
-                </span>
-              </Link>
-            ))}
+            {institutes.map((institute) => {
+              const rowClass =
+                "flex items-center gap-4 border-b border-hairline-on-tint-strong py-4 transition-colors hover:bg-bg-hover-row-alt";
+              const inner = (
+                <>
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-green-primary text-[9px] font-bold text-green-primary">
+                    {institute.code}
+                  </span>
+                  <span className="font-display text-[0.9375rem] font-bold text-text-primary">
+                    {institute.name}
+                    {institute.website_url && (
+                      <span aria-hidden="true" className="ml-1 text-green-primary">
+                        ↗
+                      </span>
+                    )}
+                  </span>
+                  <span className="ml-auto shrink-0 font-mono text-[0.6875rem] uppercase tracking-[0.05em] text-text-muted">
+                    {institute.city}
+                  </span>
+                </>
+              );
+              return institute.website_url ? (
+                <a
+                  key={institute.id}
+                  href={institute.website_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={rowClass}
+                >
+                  {inner}
+                </a>
+              ) : (
+                <Link key={institute.id} href={`/institutes/${institute.slug}`} className={rowClass}>
+                  {inner}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

@@ -17,6 +17,7 @@ create table institutes (
   slug text not null unique,
   city text not null,
   description text not null default '',
+  website_url text,
   logo_url text,
   hero_photo_url text,
   is_constituent boolean not null default true,

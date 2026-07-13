@@ -41,6 +41,7 @@ export type Institute = {
   slug: string;
   city: string;
   description: string;
+  website_url: string | null;
   logo_url: string | null;
   hero_photo_url: string | null;
   is_constituent: boolean;

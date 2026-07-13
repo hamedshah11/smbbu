@@ -51,6 +51,11 @@ insert into institutes (name, code, slug, city, description, is_constituent, est
   'Prof. Rukhsana Abro', 'principal.scnm@smbbmu.edu.pk', null, null,
   'Student Affairs Office · Mon-Fri 9:00-15:00', 8);
 
+-- CMC and GMMMC maintain their own websites; nav links for them go external.
+-- The remaining institutes use their internal /institutes/[slug] profiles.
+update institutes set website_url = 'https://cmc.edu.pk/' where code = 'CMC';
+update institutes set website_url = 'https://www.gmc-suk.edu.pk/' where code = 'GMMMC';
+
 insert into faculty (name, designation, department, institute_id, sort_order) values
 ('Prof. Dr. Shabnam Naz', 'Professor & Chairperson', 'Anatomy', (select id from institutes where code = 'CMC'), 1),
 ('Prof. Dr. Aftab A. Soomro', 'Professor', 'Medicine', (select id from institutes where code = 'CMC'), 2),
