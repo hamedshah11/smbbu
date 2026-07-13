@@ -55,7 +55,7 @@ export default async function HomePage() {
           <span className="mr-1 shrink-0 font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-text-faint">
             Quick →
           </span>
-          <PillButton href="#" variant="primary">
+          <PillButton href="https://finex.smbbmu.edu.pk/web/fees/online" variant="primary" external>
             Fee Payment
           </PillButton>
           <PillButton href="/noticeboard/examination" variant="primary">
@@ -63,7 +63,7 @@ export default async function HomePage() {
           </PillButton>
           <PillButton href="/downloads">Downloads</PillButton>
           <PillButton href="/policies/scholarship-financial-aid-policy">Financial Aid</PillButton>
-          <PillButton href="#">Alumni</PillButton>
+          <PillButton href="/alumni">Alumni</PillButton>
         </div>
       </section>
 

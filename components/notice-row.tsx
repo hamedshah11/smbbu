@@ -18,7 +18,9 @@ export function NoticeRow({ notice }: { notice: Announcement }) {
         <Chip onTint>{CATEGORY_LABEL[notice.category]}</Chip>
       </span>
       <span className="col-span-2 min-w-0 sm:col-span-1">
-        <span className="block sm:hidden">
+        {/* Mobile-only visual duplicate of the desktop chip column; hidden from
+            screen readers so the category is announced once per row. */}
+        <span className="block sm:hidden" aria-hidden="true">
           <Chip onTint className="mb-1">
             {CATEGORY_LABEL[notice.category]}
           </Chip>

@@ -15,6 +15,8 @@ Open [http://localhost:3210](http://localhost:3210) (or the port Next.js prints)
 
 Without Supabase credentials configured, the site runs on the local seed data in `lib/seed-data.ts` (same content as `supabase/migrations/0002_seed.sql`), so every template is viewable out of the box.
 
+**The seed fallback is development-only.** In production (`NODE_ENV=production`, which includes `npm run build`), missing Supabase env vars throw at startup with a clear error rather than silently serving placeholder content — so a production build requires `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` to be set.
+
 ## Connecting Supabase
 
 1. Create a Supabase project.

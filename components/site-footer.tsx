@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 const COLUMNS = [
   {
@@ -30,7 +31,13 @@ const COLUMNS = [
   },
 ];
 
-const SOCIAL = ["FB", "X", "YT", "IG", "IN"];
+const SOCIAL = [
+  { label: "X (Twitter)", href: "https://x.com/smbbmulrk", Icon: Twitter },
+  { label: "Facebook", href: "https://facebook.com/smbbmu2009", Icon: Facebook },
+  { label: "YouTube", href: "https://youtube.com/@smbbmularkana-ji6nm", Icon: Youtube },
+  { label: "Instagram", href: "https://instagram.com/smbbmu2009", Icon: Instagram },
+  { label: "LinkedIn", href: "https://linkedin.com/company/smbbmu2009", Icon: Linkedin },
+];
 
 export function SiteFooter() {
   return (
@@ -82,14 +89,18 @@ export function SiteFooter() {
                 <br />
                 info@smbbmu.edu.pk
               </p>
-              <div className="mt-4 flex gap-3">
-                {SOCIAL.map((s) => (
-                  <span
-                    key={s}
-                    className="font-mono text-[0.625rem] font-medium tracking-[0.08em] text-text-on-dark-soft"
+              <div className="mt-4 flex gap-4">
+                {SOCIAL.map(({ label, href, Icon }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    className="text-text-on-dark-soft transition-colors hover:text-text-on-dark"
                   >
-                    {s}
-                  </span>
+                    <Icon size={16} strokeWidth={1.75} aria-hidden="true" />
+                  </a>
                 ))}
               </div>
             </div>

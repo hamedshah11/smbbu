@@ -6,16 +6,21 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import type { Institute } from "@/lib/types";
 
-const UTILITY_LINKS = [
+type LinkItem = { label: string; href: string; external?: boolean };
+
+const UTILITY_LINKS: LinkItem[] = [
   { label: "QEC", href: "/qec" },
   { label: "DME", href: "/dme" },
+  { label: "Policies", href: "/policies" },
+  { label: "SMBBMU Library Blog", href: "https://smbbmulibraries.blogspot.com", external: true },
   { label: "Student Resources", href: "/downloads" },
-  { label: "Webmail", href: "#" },
+  // TODO: placeholder — replace with the client's real webmail URL when provided.
+  { label: "Webmail", href: "https://mail.google.com", external: true },
   { label: "Tenders", href: "/noticeboard/tender" },
   { label: "Contact", href: "/contact" },
 ];
 
-const NOTICEBOARD_LINKS = [
+const NOTICEBOARD_LINKS: LinkItem[] = [
   { label: "All notices", href: "/noticeboard" },
   { label: "Examinations", href: "/noticeboard/examination" },
   { label: "Admissions", href: "/noticeboard/admission" },
@@ -24,21 +29,22 @@ const NOTICEBOARD_LINKS = [
   { label: "Tenders", href: "/noticeboard/tender" },
 ];
 
-const ABOUT_LINKS = [
+const ABOUT_LINKS: LinkItem[] = [
   { label: "The University", href: "/about/the-university" },
   { label: "Quality Enhancement Cell", href: "/qec" },
   { label: "Directorate of Medical Education", href: "/dme" },
 ];
 
-const ADMISSIONS_LINKS = [
-  { label: "Admission Notices", href: "/noticeboard/admission" },
-  { label: "Fee Structure & Downloads", href: "/downloads" },
-  { label: "Scholarships & Financial Aid", href: "/policies/scholarship-financial-aid-policy" },
+const ADMISSIONS_LINKS: LinkItem[] = [
+  { label: "MBBS / BDS", href: "http://admissions.smbbmu.edu.pk", external: true },
+  { label: "Nursing", href: "http://admissions.smbbmu.edu.pk", external: true },
+  { label: "PHARM-D / DPT", href: "http://admissions.smbbmu.edu.pk", external: true },
+  { label: "Postgraduate", href: "/noticeboard/admission" },
 ];
 
 type NavItem =
   | { label: string; href: string; dropdown?: never }
-  | { label: string; href: string; dropdown: { label: string; href: string }[] };
+  | { label: string; href: string; dropdown: LinkItem[] };
 
 function buildNavItems(institutes: Institute[], departments: string[]): NavItem[] {
   return [
@@ -79,15 +85,27 @@ export function SiteHeader({
     <div className="sticky top-0 z-50 bg-bg-page">
       <div className="border-b border-hairline">
         <div className="mx-auto flex max-w-(--container-page) items-center justify-end gap-6 px-5 py-2 md:px-10">
-          {UTILITY_LINKS.map((link) => (
-            <Link
-              key={link.label}
-              href={link.href}
-              className="hidden font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-text-muted transition-colors hover:text-text-primary md:inline-block"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {UTILITY_LINKS.map((link) =>
+            link.external ? (
+              <a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-text-muted transition-colors hover:text-text-primary md:inline-block"
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="hidden font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-text-muted transition-colors hover:text-text-primary md:inline-block"
+              >
+                {link.label}
+              </Link>
+            ),
+          )}
           <button
             type="button"
             aria-label="Toggle menu"
@@ -157,6 +175,9 @@ function isActive(pathname: string, href: string) {
 }
 
 function NavDropdown({ item, active }: { item: NavItem; active: boolean }) {
+  const subLinkClass =
+    "block px-4 py-2 font-display text-[0.8125rem] text-text-secondary hover:bg-bg-chip hover:text-green-primary";
+
   return (
     <div className="group relative py-4">
       <Link
@@ -171,15 +192,23 @@ function NavDropdown({ item, active }: { item: NavItem; active: boolean }) {
       {active && <span className="absolute -bottom-px left-0 h-[2px] w-full bg-green-primary" />}
       {item.dropdown && (
         <div className="invisible absolute left-0 top-full z-10 min-w-56 rounded-md border border-hairline bg-bg-page py-2 opacity-0 shadow-lg transition-all duration-150 group-hover:visible group-hover:opacity-100">
-          {item.dropdown.map((sub) => (
-            <Link
-              key={sub.href}
-              href={sub.href}
-              className="block px-4 py-2 font-display text-[0.8125rem] text-text-secondary hover:bg-bg-chip hover:text-green-primary"
-            >
-              {sub.label}
-            </Link>
-          ))}
+          {item.dropdown.map((sub) =>
+            sub.external ? (
+              <a
+                key={sub.label}
+                href={sub.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={subLinkClass}
+              >
+                {sub.label} ↗
+              </a>
+            ) : (
+              <Link key={sub.label} href={sub.href} className={subLinkClass}>
+                {sub.label}
+              </Link>
+            ),
+          )}
         </div>
       )}
     </div>

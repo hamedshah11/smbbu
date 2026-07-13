@@ -9,6 +9,16 @@ import type {
   Page,
 } from "./types";
 
+// The seed-data fallback exists so the site renders during local development
+// before Supabase is connected. It must never silently serve placeholder
+// content in production.
+if (!isSupabaseConfigured && process.env.NODE_ENV === "production") {
+  throw new Error(
+    "Supabase is not configured: set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY. " +
+      "The seed-data fallback in lib/queries.ts is disabled in production builds.",
+  );
+}
+
 const PAGE_SIZE = 9;
 
 function sortByPublishedDesc(items: Announcement[]) {
