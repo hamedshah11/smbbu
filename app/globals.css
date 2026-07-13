@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand */
+  --green-primary: #256b2f;
+  --green-deep: #12251a;
+  --green-soft: #7fb889;
+  --gold-accent: #c9a24b;
+  --gold-accent-ring: rgba(201, 162, 75, 0.5);
+
+  /* Backgrounds */
+  --bg-page: #fcfcfa;
+  --bg-tint: #f4f6f1;
+  --bg-tint-strong: #eff3ec;
+  --bg-chip: #e9f2ea;
+  --bg-chip-on-tint: #e1ebe0;
+  --bg-hover-row: #ebefe6;
+  --bg-hover-row-alt: #e9efe4;
+  --bg-pill-hover: #e9f2ea;
+
+  /* Text */
+  --text-primary: #15192b;
+  --text-secondary: #4a5068;
+  --text-muted: #6b7280;
+  --text-faint: #9aa0ab;
+  --text-on-dark: #f5f3ea;
+  --text-on-dark-soft: rgba(245, 243, 234, 0.75);
+  --text-on-dark-muted: rgba(245, 243, 234, 0.45);
+  --pdf-icon: #b03a2e;
+
+  /* Borders */
+  --hairline: #e8e9e4;
+  --hairline-on-tint: #e2e5dd;
+  --hairline-on-tint-strong: #dde3d8;
+  --hairline-strong: #15192b;
+  --hairline-on-dark: rgba(245, 243, 234, 0.15);
+}
+
+@theme inline {
+  --color-green-primary: var(--green-primary);
+  --color-green-deep: var(--green-deep);
+  --color-green-soft: var(--green-soft);
+  --color-gold-accent: var(--gold-accent);
+
+  --color-bg-page: var(--bg-page);
+  --color-bg-tint: var(--bg-tint);
+  --color-bg-tint-strong: var(--bg-tint-strong);
+  --color-bg-chip: var(--bg-chip);
+  --color-bg-chip-on-tint: var(--bg-chip-on-tint);
+  --color-bg-hover-row: var(--bg-hover-row);
+  --color-bg-hover-row-alt: var(--bg-hover-row-alt);
+  --color-bg-pill-hover: var(--bg-pill-hover);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-faint: var(--text-faint);
+  --color-text-on-dark: var(--text-on-dark);
+  --color-text-on-dark-soft: var(--text-on-dark-soft);
+  --color-text-on-dark-muted: var(--text-on-dark-muted);
+  --color-pdf-icon: var(--pdf-icon);
+
+  --color-hairline: var(--hairline);
+  --color-hairline-on-tint: var(--hairline-on-tint);
+  --color-hairline-on-tint-strong: var(--hairline-on-tint-strong);
+  --color-hairline-strong: var(--hairline-strong);
+  --color-hairline-on-dark: var(--hairline-on-dark);
+
+  --font-display: var(--font-display), "Helvetica Neue", Arial, sans-serif;
+  --font-serif: var(--font-serif), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-mono), ui-monospace, "SF Mono", Menlo, monospace;
+  --font-sindhi: var(--font-sindhi), serif;
+
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  --container-page: 1200px;
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--text-primary);
+}
+
+[dir="rtl"],
+.font-sindhi {
+  font-family: var(--font-sindhi);
+}
+
+.duotone {
+  position: relative;
+  overflow: hidden;
+}
+
+.duotone img {
+  filter: grayscale(1) contrast(1.06);
+}
+
+.duotone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    160deg,
+    rgba(18, 37, 26, 0.55),
+    rgba(37, 107, 47, 0.35)
+  );
+  mix-blend-mode: multiply;
+}
+
+.duotone-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(127, 184, 137, 0.14);
+  mix-blend-mode: screen;
+}
+
+.duotone-thumb::before {
+  background: linear-gradient(
+    160deg,
+    rgba(18, 37, 26, 0.5),
+    rgba(37, 107, 47, 0.3)
+  );
+}
