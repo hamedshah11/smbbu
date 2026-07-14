@@ -71,6 +71,12 @@ export type RelatedLink = {
   url: string;
 };
 
+export type PageContact = {
+  email?: string;
+  phone?: string;
+  location?: string;
+};
+
 export type Page = {
   id: string;
   slug: string;
@@ -81,6 +87,8 @@ export type Page = {
     related_links?: RelatedLink[];
     name?: string;
     title?: string;
+    contact?: PageContact;
+    hero_photo_url?: string;
   };
   updated_at: string;
 };

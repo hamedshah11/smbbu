@@ -9,5 +9,16 @@ export default async function QecPage() {
   const page = await getPageBySlug("quality-enhancement-cell");
   if (!page) notFound();
 
-  return <GenericContentPage page={page} section="About" />;
+  return (
+    <GenericContentPage
+      page={page}
+      section="About"
+      kicker="About — Quality Assurance"
+      cta={{
+        heading: "Have a question for the QEC?",
+        primary: { label: "Contact the QEC", href: "/contact" },
+        secondary: { label: "Browse downloads", href: "/downloads" },
+      }}
+    />
+  );
 }

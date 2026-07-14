@@ -126,3 +126,54 @@ body {
     rgba(37, 107, 47, 0.3)
   );
 }
+
+/* Numbered feature grid — applied to the first 3+ item list on content pages */
+.feature-grid {
+  counter-reset: feature;
+}
+
+.feature-grid > li {
+  counter-increment: feature;
+  list-style: none;
+  border-bottom: 1px solid var(--hairline);
+  padding: 16px 0 20px;
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-primary);
+}
+
+.feature-grid > li::before {
+  content: counter(feature, decimal-leading-zero);
+  display: block;
+  margin-bottom: 12px;
+  font-family: var(--font-mono);
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--green-soft);
+}
+
+/* Scroll-triggered fade-up; the .fade-up class is only added by JS when
+   prefers-reduced-motion is not set, so content is never hidden without it. */
+.fade-up {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 300ms ease,
+    transform 300ms ease;
+}
+
+.fade-up-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

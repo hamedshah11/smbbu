@@ -380,6 +380,11 @@ Established under HEC directives, the Cell reports directly to the Vice Chancell
         { label: "Programme review rubrics", url: "#" },
         { label: "Institutional Performance Evaluation", url: "#" },
       ],
+      contact: {
+        email: "qec@smbbmu.edu.pk",
+        phone: "+92 74 9410 703 · EXT 188",
+        location: "Admin Block, Main Campus, Larkana",
+      },
     },
     updated_at: "2026-06-01T09:00:00Z",
   },
@@ -395,8 +400,23 @@ The Directorate of Medical Education (DME) coordinates curriculum design, facult
 - Curriculum review and integration across professional years
 - Faculty development workshops in medical education
 - OSCE/OSPE assessment design and item banking
-- Student support and remediation programme oversight`,
-    meta: { related_links: [{ label: "PMDC Curriculum Guidelines", url: "#" }] },
+- Student support and remediation programme oversight
+
+## Training calendar 2026-27
+
+| Workshop | Window | Audience |
+|---|---|---|
+| Curriculum integration workshop | AUG - SEP | Module coordinators |
+| Assessment & item-writing bootcamp | OCT - NOV | Examination staff |
+| Simulation-based teaching primer | FEB - MAR | Clinical faculty |`,
+    meta: {
+      related_links: [{ label: "PMDC Curriculum Guidelines", url: "#" }],
+      contact: {
+        email: "dme@smbbmu.edu.pk",
+        phone: "+92 74 9410 703 · EXT 192",
+        location: "Academic Block, Main Campus, Larkana",
+      },
+    },
     updated_at: "2026-06-01T09:00:00Z",
   },
   {

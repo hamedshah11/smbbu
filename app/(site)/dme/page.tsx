@@ -9,5 +9,16 @@ export default async function DmePage() {
   const page = await getPageBySlug("directorate-of-medical-education");
   if (!page) notFound();
 
-  return <GenericContentPage page={page} section="About" />;
+  return (
+    <GenericContentPage
+      page={page}
+      section="About"
+      kicker="About — Directorate"
+      cta={{
+        heading: "Looking for notices from this office?",
+        primary: { label: "Browse circulars", href: "/noticeboard/circular" },
+        secondary: { label: "Contact the university", href: "/contact" },
+      }}
+    />
+  );
 }
