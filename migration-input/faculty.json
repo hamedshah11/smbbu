@@ -1,0 +1,4214 @@
+[
+  {
+    "name": "Prof. Dr. Muhammad Hanif Shaikh",
+    "designation": "Dean",
+    "department": "Faculty of Basic Medical Sciences",
+    "category": "basic",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof. Shahid Hussain Soomro",
+    "designation": "Chairperson",
+    "department": "Department of Anatomy",
+    "category": "basic",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof. Dr. Shahid Hussain Soomro",
+    "designation": "Professor / Principal(CMC)",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS, FCPS,PhD",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof. Dr. M.Saleem Shaikh",
+    "designation": "Professor(on Contract)",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Sana Kashif",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Sajjad Ahmed Channa",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muhammad Asif Chandio",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Khalid Hussian Shaikh",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Suhail Iqbal Shaikh",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ashraf Ali Chan",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Rozeena Memon",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "DR. Moazam Saifullah",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "DR. Khushbakht Abro",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "DR. Marvi Sangi",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "DR. Uzma Lakho",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Abdul Waheed Shaikh",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Syed Faizan Ali",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS, MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Khursheed Bano",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Shagufta Shah",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muhammad Usman",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Nusrat Memon",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Jagdesh Kumar",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Pardeep Kumar",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Imran Khan Laghari",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Nosheen",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Madiha Nazeer",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Amar Lal Dodani",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF PHYSIOLOGY",
+    "category": "basic",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof. Dr. Safdar Ali Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS, MPHIL, PhD",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Amar Lal Dodani",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Barkat Ali",
+    "designation": "Assistant Professor(Contract)",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ashok Kumar Oad",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Daulat Ram",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Rehana Sadhayo",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Zafar Ali Abro",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ashfaque Ahmed Bhutto",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muzaffar Ali Abro",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Benazir Abbasi",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ayesha Ambreen",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Farah Naz",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Fatima",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muhammad Babar",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Shagufta Memon",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muhammad Abdulah Mirani",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muhammad Irfan Shaikh",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Farah Naz",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Irshad Batool",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Bakhtawar Memon",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr.Naveed Hussain /p>",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Siraj Ahmed",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ghulam Sarwar Shaikh",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF BIOCHEMISTRY",
+    "category": "basic",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof: Dr. Muhammad Hanif Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,M.PHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ghulam Sarwar Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,M.PHIL, Ph.D",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Mir Hassan Khoso",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Atia Masood",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Abdul Hameed Lanjwani",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Inamullah Soomro",
+    "designation": "Senior Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "DR. Amber-U-Nisa",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Shaista Mujeeb",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Aneela Qureshi",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Noma Soomro",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Vinay Kumar",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr, Arshad Hussain Laghari",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "M.PHIL, Ph.D",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Majid Ali",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPHIL, PhD",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Nazakat Hussain",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPHIL, PhD",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ali Akbar Naich",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Rehana Gudi",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPH",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ayaz Hussain Shah",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Shumaila",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Nila",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Aisha Bibi",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr.Murkh Rani",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. OM Parkash",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF PATHOLOGY",
+    "category": "basic",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. OM Parkash",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MSC. MPHIL, PHD",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Dileep Kumar Ahuja",
+    "designation": "Senior Demonstrator",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Lubna Adnan",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,MPHIL(Microbiology)",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Shahzad Ali",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,MPHIL(Haemotology)",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muhammad Wasif Saleem",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "BDS,MPHIL(Histopathology)",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Hifazuddin  Abro",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Sarfraz Hussain Tunio",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Abdul Qadir",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Fahmeeda Shaikh",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Aisha",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Asma",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ghazal",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ghazal Gohar",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ghazal Saeed",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Hafeezullah",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Mukesh Kumar",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Pritya Gemnani",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Asba Memon",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof. Dr. Altaf Ahmed Shaikh",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Amanullah Bhutto",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Rukhsana Saboor",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Khadim Ali Mangi",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Fiza Sharaf Siddiqui",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Hidayatullah Memon",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Sajjad Ali Soomro",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr.Samina Tarique Sawand",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Bakhtawar Giramani",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr.Shakeela Kalhoro",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Manesh",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr.Ali Rohail",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof: Dr. Barkat Ali Shaikh",
+    "designation": "Chairperson",
+    "department": "Department of Pharmacology",
+    "category": "basic",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof: Dr. Riaz Ahmed Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,M.PHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof: Dr. Barkat Ali Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Diyal Das",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,M.PHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Fahad Jibran Siyal",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Masood Ahmed Unar",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Barkat Ali Shaikh",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Andeep Kumar",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Abdul Basit Gopang",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Abdul Aziz Khoso",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Afaque Hussain",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof: Dr. Nazeer Ahmed Shah",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS,M.PHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ashique Hussian Channa",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Allah Jeewayo Panhyar",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ajeet Kumar",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MPHIL",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ashfaque Ahmed Jumani",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Khadija Shaikh",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Dua Rabeel",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Farooq Ahmed Abro",
+    "designation": "Chairperson",
+    "department": "FORENSIC MEDICINE",
+    "category": "basic",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Farooq Ahmed Abro",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,DMJ",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Inayatullah Magsi",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS , DMJ",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Muhammad Rafique Shaikh",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS,DMJ",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Ashok Kumar Parthiani",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Abdul Hafeez Abro",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Asif Raza Gaad",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Aziz Ahmed Soomro",
+    "designation": "Medical Officer",
+    "department": "CMC",
+    "category": "basic",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Dr. Mir Ghulam Ali Talpur",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "basic",
+    "qualifications": "MBBS, DMJ",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/basic"
+  },
+  {
+    "name": "Prof. Dr. Altaf Shaikh",
+    "designation": "Dean",
+    "department": null,
+    "category": "medicine",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Prof. Dr. Bashir Ahmed Shaikh",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF MEDICINE",
+    "category": "medicine",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Prof: Dr. Hakim Ali Abro",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Azizullah Jalbani",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Kouro Mal",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Mumtaz Ali Chutto",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Shaikh Khalid Muhammad",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Zahid Ali Shaikh",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "DR. Abdul Wahab",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "DR. Sultan Ahmed Chandio",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "DR. Kamlesh Kumar",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "DR. Aneel Kumar",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "DR. Shakeel Ahmed",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "DR. Sham Lal",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Mujeeb –ur- Rehman Abro",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Vishamber Lal",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Prof. Dr. Saleh Muhammad Channa",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Prof. Syed Iftkhar Ali Shah",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Bashir Ahmed",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Abdul Rashid",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Khalil Ahmed Sanghroo",
+    "designation": "Senior Registrar",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Shanti Lal",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Shankar Lal",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS, DCH,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Delijan",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Nazimuddin",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Nazia Faraz",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Mumtaz Ali",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Tufail Ahmed Soomro",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Rizwana Qureshi",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Chinkoo Mal",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Saira Bano",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Raj Kumar Sachdewani",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF CARDIOLOGY",
+    "category": "medicine",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Muhammad Khalilullah   Shaikh",
+    "designation": "Senior Lecturer",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,DIP-CARD",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Raj Kumar Sachdewani",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,MD",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Tahir Hussain Soomro",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Shafi Muhammad Khuhawar",
+    "designation": "Chairperson",
+    "department": "DEPARTEMENT OF PULMONOLOGY",
+    "category": "medicine",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Rizwan Ali Tunio",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Shafi Muhammad Khuhawar",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Jagdesh Kumar",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Prof: Dr. Alam Ibrahim   Siddiqui",
+    "designation": "Professor",
+    "department": "DEPARTMENT OF NUEROLOGY",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Abdul Ghafoor Magsi",
+    "designation": "Assistant Professor",
+    "department": "DEPARTMENT OF NUEROLOGY",
+    "category": "medicine",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Aijaz Ali",
+    "designation": "Assistant Professor",
+    "department": "DEPARTMENT OF NUEROLOGY",
+    "category": "medicine",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Sajjad Hussain Jalbani",
+    "designation": "Senior Registrar",
+    "department": "DEPARTMENT OF NUEROLOGY",
+    "category": "medicine",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Tariq Rasheed",
+    "designation": "Lecturer",
+    "department": "DEPARTMENT OF NUEROLOGY",
+    "category": "medicine",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Deepak Kumar",
+    "designation": "Senior Registrar",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Zohaib Ahmed Soomro",
+    "designation": "Senior Registrar",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Irfan Ahmed Shaikh",
+    "designation": "Professor / Chairperson",
+    "department": "DEPARTMENT OF DERMATOLOGY",
+    "category": "medicine",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Rahmat Ali Waggan",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Anoop Kumar",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Inayatullah Awan",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Ghulam Rasool Rind",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Ali Hyder Mugheri",
+    "designation": "Chairperson",
+    "department": "Department of Gastroenterology",
+    "category": "medicine",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Ali Hyder Mugheri",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Shabana",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Mahesh Kumar",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "medicine",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Dr. Ghulam Abbas Qadri",
+    "designation": "Assistant Professor",
+    "department": "Department of Nephrology",
+    "category": "medicine",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/medicine"
+  },
+  {
+    "name": "Prof: Dr. Shahida Magsi",
+    "designation": "Dean",
+    "department": null,
+    "category": "surgery",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Yasmeen Bhatti",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Akleema Abro",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Aisha Aziz Shaikh",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Saira Shaikh",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "DR. Abdul Ghani Shaikh",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "DR. Ehsanullah Malik",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "DR. Muhammad Ali Napar",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Abdul Sattar Abro",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Nadia Bhatti",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Waqar- Sahar- Shah",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Abdul Ghaffar",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Sachal Faqeer",
+    "designation": "Medical Officer",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Ghulam Hyder Rind",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Imamuddin Baloch",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Azhar Ali Shah",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shahid Hussain Mirani",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,MS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Abdul Sami",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Dharmoon Arija",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Bushra Shaikh",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof: Dr. Safia Maqsood",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF GYNECOLOGY & OBSTETRICS",
+    "category": "surgery",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof: Dr. Shahida Magsi",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shaista Tabasum",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shabnam Naz Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,MCPS,FCPS,MRCOG(UK)",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shazia Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Afshan Bhatti",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Tanveer Akhtar",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Fouzia Chandio",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Lachmi",
+    "designation": "Senior Lecturer",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,DGO",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Basma Zia",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Najia Bhatti",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shabana Bano",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Waqar-U-Nisa",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Sonia Bai",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shaista Lashari",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof: Dr. Safia Maqsood",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Tahmina Mahar",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shoaibunisa Soomro",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Sabhat Fatima",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Samina Memon",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Rubina Hafeez",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Hazooran Lakhan",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Mahjabeen",
+    "designation": "Senior Registrar",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shahneela",
+    "designation": "Senior Registrar",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof. Amanullah Abbasi",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF UROLOGY",
+    "category": "surgery",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof. Amanullah Abbasi",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Nisar Ahmed Shaikh",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS, MS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Muhammad Iqbal Soomro",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS, MS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Safiullah Sohu",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Fozia Shaikh",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Amir Ali",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Muhammad Imran",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Azizullah",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Yasir Hussain Patujo",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Naveed Ahmed",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Sajjad Ali Abbasi",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Hameed-ur-Rehman",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr.Azizullah Mir Bahar",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr.Muhammad Imran",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Hamid Ali Sangi",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF E.N.T",
+    "category": "surgery",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof: Dr. Gulzar Ahmed Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS, DLO, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Hamid Ali Sangi",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS, DLO, MS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Liaquat Ali Dargahi",
+    "designation": "Senior Lecturer",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS, DLO",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Ghulam Shabir Mahar",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Abdul Malik Shaikh",
+    "designation": "Chairperson",
+    "department": "DEPARTMENT OF ORTHOPAEDIC SURGERY",
+    "category": "surgery",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Abdul Malik Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Zamir Ahmed Soomro",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Kashif Iqbal Tebani",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Mushtaque Ahmed Shaikh",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Muhammad Shoaib Chandio",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Muhammad Zeb Tunio",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shahjahan Siyal",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Safiullah Soomro",
+    "designation": "Senior Registrar",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Zulfiqar Ali Soomro",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Shakeel Ahmed Abbasi",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,MS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Azizullah Bhayo",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Sijad Ahmed",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Ahmed Raza Leghari",
+    "designation": "Senior Registrar",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof. Sirajuddin Soomro",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof: Dr. Noor Ahmed Shaikh",
+    "designation": "Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "DR. Bhagwan Das",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "DR. Kailash Kumar",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "DR. Din Muhammad Sohu",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "surgery",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Inayatullah  Memon",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Imran Khan  Memon",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Rabia Hafeez",
+    "designation": "Senior Registrar",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Muhammad Aslam Shaikh",
+    "designation": "Associate Professor",
+    "department": "NEUROSURGERY",
+    "category": "surgery",
+    "qualifications": "MBBS,MCPS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Muhammad Munwar Ali",
+    "designation": "Assistant Professor",
+    "department": "NEUROSURGERY",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Najm-u-Saqib",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS,FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Ahmed-uddin Soomro",
+    "designation": "Assistant Professor",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS, FCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Menghraj",
+    "designation": "Lecturer",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Aijaz Ali Shaikh",
+    "designation": "Lecturer",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Altaf Hussain Abassi",
+    "designation": "Senior Clinical Lecturer",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Kamal Patujo",
+    "designation": "Clinical Lecturer",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Hafeezullah Laghari",
+    "designation": "Clinical Lecturer",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Darshan Lal",
+    "designation": "Clinical Lecturer",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Mehtab Ali",
+    "designation": "Clinical Lecturer",
+    "department": "DEPARTMENT OF ANESTHESIOLOGY",
+    "category": "surgery",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Dr. Lutufullah Channa",
+    "designation": "Clinical Lecturer",
+    "department": "GMMMC",
+    "category": "surgery",
+    "qualifications": "MBBS, MCPS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/surgery"
+  },
+  {
+    "name": "Prof. Dr Syed Qararo Shah",
+    "designation": "Dean",
+    "department": "Faculty of Community Medicine & Public Health Sciences",
+    "category": "community",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Prof. Saeed Ahmed Shaikh",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "MBBS,MPH",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Prof. Dr Syed Qararo Shah",
+    "designation": "Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Vijay Kumar",
+    "designation": "Associate Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Shah Alam Khan",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Masood Ali",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Sarmad Jamal",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Muhammad Parial Shahani",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Kaleemullah",
+    "designation": "Assistant Professor",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Akhlaque Ahmed Shaikh",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Farheen",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Shabana Jamshed Abro",
+    "designation": "Senior Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Suhail Aman Jokhio",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Fareeda Baloch",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "MBBS,MPH",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Wahid Bux Solangi",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Alma",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Faisal Saifullah",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Imtiaz Ali",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Samara Jamshed",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Sumera",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Yasmeen",
+    "designation": "Lecturer",
+    "department": "CMC",
+    "category": "community",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Shafi Muhammad Wasan",
+    "designation": "Associate Professor",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS, MPH",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Khairunnisa Shaikh",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS,MPH",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Asghar Ali",
+    "designation": "Assistant Professor",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS,MPH",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Mujeeb Rehman Pathan",
+    "designation": "Senior Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Zahida Kousar",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Kashif Philpoto",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Azharuddin Shaikh",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Farah Naz Sarki",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Asif Wazir Narejo",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr.Anzar Farooque",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Aliza",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Tulsi Das",
+    "designation": "Lecturer",
+    "department": "GMMMC",
+    "category": "community",
+    "qualifications": "MBBS",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/community"
+  },
+  {
+    "name": "Dr. Syed Yousif Ali Shah",
+    "designation": "Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Wajid Ali",
+    "designation": "Senior Registrar",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Preh Abro",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Muhammad Rafique Tagar",
+    "designation": "Associate Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Arsalan Humayun",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Abdul Bari Memon",
+    "designation": "Associate Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Imran Ali Maitlo",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Muhammad Adil",
+    "designation": "",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Prof. Dr. Kouro Mal Gurbakhshani",
+    "designation": "Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Saira Baby",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Muharram Ali",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Muhammad Mubashir Ahmed",
+    "designation": "Senior Registrar",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Shumaila Shaikh",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Sarwanand",
+    "designation": "Senior Registrar",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Imdad Hussain",
+    "designation": "Senior Registrar",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Rashid Iqbal Bughio",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Rajesh Kumar",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Sarang Suresh",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Sunny",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Nadia Bashir",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Prof. Dr. Qaimuddin Shaikh",
+    "designation": "Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Aswad Ahmed",
+    "designation": "Associate Professor (CCB)",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Asfar Hussain",
+    "designation": "Assistant Professor (CCB)",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Kinza Fatima",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Naeem Mustafa",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Bharti Kumari",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Priya Kumari",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Saleem Raza Khuhawar",
+    "designation": "Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Arslan Ali",
+    "designation": "Lecturer / Registrar",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Farzana Mangi",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Reeta Khatri",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Surwaich Ali",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Mehak Irshad Abro",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Priya Rani",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Almas Rahoojo",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Seema Hameed",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Shazia Shakeel",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Murk Dodani",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Safia Rani",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Asma Bano",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Ghulam Muhiddin Shah",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Abdul Jabbar Lakhiar",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Mehak Memon",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Ume Farwa",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Ali Gul Tunio",
+    "designation": "Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Asif Ali",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Prof. Amar Lal Gurbakhshani",
+    "designation": "Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr Imran Samejo",
+    "designation": "Associate Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Shabir Ahmed",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Waheed Murad Dahri",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Amit Kumar",
+    "designation": "Lecturer / Registrar",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr Sana Sattar",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Deepak Kumar",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Sanam Bhutto",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Sadam Rind",
+    "designation": "Lecturer",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Shahid Ali Mirani",
+    "designation": "Assistant Professor",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Sandeep Kumar",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Rajesh Mandhan",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Maria Saba",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Bibi Aseefa Dental College",
+    "category": "dental",
+    "qualifications": "",
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/faculty/index/dental"
+  },
+  {
+    "name": "Dr. Syed Yousif Ali Shah",
+    "designation": "Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-syed-yousif-ali-shah.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Wajid Ali",
+    "designation": "Senior Registrar",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Preh Abro",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Muhammad Rafique Tagar",
+    "designation": "Associate Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-muhammad-rafique-tagar.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Arsalan Humayun",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Abdul Bari Memon",
+    "designation": "Associate Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Imran Ali Maitlo",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Muhammad Adil",
+    "designation": "",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Prof. Dr. Kouro Mal Gurbakhshani",
+    "designation": "Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Saira Baby",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-saira-baby.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Muharram Ali",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Muhammad Mubashir Ahmed",
+    "designation": "Senior Registrar",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Shumaila Shaikh",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Sarwanand",
+    "designation": "Senior Registrar",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Imdad Hussain",
+    "designation": "Senior Registrar",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Rashid Iqbal Bughio",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Rajesh Kumar",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Sarang Suresh",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Sunny",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Nadia Bashir",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Prof. Dr. Qaimuddin Shaikh",
+    "designation": "Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "prof-dr-qaimuddin-shaikh.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Aswad Ahmed",
+    "designation": "Associate Professor (CCB)",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-aswad-ahmed.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Asfar Hussain",
+    "designation": "Assistant Professor (CCB)",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-asfar-hussain.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Kinza Fatima",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-kinza-fatima.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Naeem Mustafa",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-naeem-mustafa.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Bharti Kumari",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-bharti-kumari.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Priya Kumari",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-priya-kumari.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Saleem Raza Khuhawar",
+    "designation": "Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Arslan Ali",
+    "designation": "Lecturer / Registrar",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Farzana Mangi",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Reeta Khatri",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Surwaich Ali",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Mehak Irshad Abro",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Priya Rani",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Almas Rahoojo",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-almas-rahoojo.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Seema Hameed",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Shazia Shakeel",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Murk Dodani",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Safia Rani",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Asma Bano",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Ghulam Muhiddin Shah",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Abdul Jabbar Lakhiar",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Mehak Memon",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Ume Farwa",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Ali Gul Tunio",
+    "designation": "Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-ali-gul-tunio.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Asif Ali",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-asif-ali.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Prof. Amar Lal Gurbakhshani",
+    "designation": "Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "prof-amar-lal-gurbakhshani.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr Imran Samejo",
+    "designation": "Associate Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Shabir Ahmed",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Waheed Murad Dahri",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Amit Kumar",
+    "designation": "Lecturer / Registrar",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-amit-kumar.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr Sana Sattar",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Deepak Kumar",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Sanam Bhutto",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Sadam Rind",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Shahid Ali Mirani",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-shahid-ali-mirani.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Sandeep Kumar",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": "dr-sandeep-kumar.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Rajesh Mandhan",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Dr. Maria Saba",
+    "designation": "Lecturer / Demonstrator",
+    "department": "Introduction",
+    "category": "campus:bibi-aseefa-dental-college-larkana",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/bibi-aseefa-dental-college-larkana"
+  },
+  {
+    "name": "Mr. Nazeer Ali",
+    "designation": "Associate Professor",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-nazeer-ali.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "MR. GHULAM ABBAS PANHWAR",
+    "designation": "Associate Professor",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-ghulam-abbas-panhwar.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Ms. Sara Chandio",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "ms-sara-chandio.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Ms. Humera Wagan",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "ms-humera-wagan.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Mr. Aftab Ghouri",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-aftab-ghouri.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "MR. Abdul Wahid Bhayo",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-abdul-wahid-bhayo.png",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Ms. Faiza Jokhio",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "ms-faiza-jokhio.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Mr. Saifullah Soomro",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-saifullah-soomro.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Mr. Ali Asghar",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-ali-asghar.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Mr. Asif Ali Magsi",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-asif-ali-magsi.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Ms. Kaneez Fiza",
+    "designation": "Lecurer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "ms-kaneez-fiza.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Mr. Asif Jamali",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:benazir-college-of-nursing-larkana",
+    "qualifications": null,
+    "photo": "mr-asif-jamali.jpg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/benazir-college-of-nursing-larkana"
+  },
+  {
+    "name": "Dr. Waseem Abbas Malhani",
+    "designation": "Associate Professor",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": "dr-waseem-abbas-malhani.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr. Abdul Rauf Khaskheli",
+    "designation": "Professor",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": "dr-abdul-rauf-khaskheli.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Prof. Dr. Nadeem Baloch",
+    "designation": "Associate Professor",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": "prof-dr-nadeem-baloch.png",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr. Maryam Qazi",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr. Saleem Ahmed Joyo",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr. Bilawal",
+    "designation": "Assistant Professor",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Mr. Ayaz Ali Unar",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": "mr-ayaz-ali-unar.png",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr. Sofia",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr Athar Ali",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": "dr-athar-ali.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr Muhammad Umair",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr Rasheed Ahmed",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:department-of-pharmacy",
+    "qualifications": null,
+    "photo": null,
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/department-of-pharmacy"
+  },
+  {
+    "name": "Dr. Mukesh Kumar",
+    "designation": "",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-mukesh-kumar.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Vikash",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-vikash.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Naseebullah",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-naseebullah.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Adil Ameer Ali",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-adil-ameer-ali.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Natasha Bhutto",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-natasha-bhutto.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Shobha",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-shobha.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Sunny Kumar",
+    "designation": "Lecturer",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-sunny-kumar.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr Komal",
+    "designation": "",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-komal.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Sonam",
+    "designation": "",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-sonam.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Shahmeer Khan",
+    "designation": "",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-shahmeer-khan.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  },
+  {
+    "name": "Dr. Fayaz Hussain",
+    "designation": "",
+    "department": "Introduction",
+    "category": "campus:institute-of-physiotherapy",
+    "qualifications": null,
+    "photo": "dr-fayaz-hussain.jpeg",
+    "source_url": "https://www.smbbmu.edu.pk/beta/campuses/institute-of-physiotherapy"
+  }
+]

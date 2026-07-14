@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Chandka Medical College Larkana",
+    "city": "Larkana",
+    "description": "",
+    "logo": "chandka-medical-college-larkana.jpg",
+    "external_url": "http://cmc.edu.pk"
+  },
+  {
+    "name": "Ghulam Muhammad Mahar Medical College Sukkur",
+    "city": "Sukkur",
+    "description": "",
+    "logo": "ghulam-muhammad-mahar-medical-college-sukkur.gif",
+    "external_url": "https://www.gmc-suk.edu.pk/"
+  },
+  {
+    "name": "Bibi Aseefa Dental College Larkana",
+    "city": "Larkana",
+    "description": "Introduction",
+    "logo": "bibi-aseefa-dental-college-larkana.jpg",
+    "external_url": null
+  },
+  {
+    "name": "Benazir College Of Nursing",
+    "city": "Larkana",
+    "description": "Introduction Benazir College of nursing is a unique and premier nursing Institute, established in the year 2012 is one of the constitute college of Shaheed Mohtarma Benazir Bhutto Medical University Larkana, and is recognized by Pakistan Nursing Council and Higher Education Commission of Pakistan. It is one of the leading institutes that incorporate all the guidelines and principles set by the council and commission. Benazir College of Nursing is leading nursing college in interior Sindh accommodating students from all over the country as per seat allocation. The graduates of BCON are serving at attractive wages in different public and private sector organizations, according to a partial requirement of undergraduate students study survey conducted in 2019 on illumines of BCON, the result s",
+    "logo": "benazir-college-of-nursing.jpg",
+    "external_url": null
+  },
+  {
+    "name": "Institute Of Pharmacy",
+    "city": "Larkana",
+    "description": "Introduction By the grace of ALMIGHTY ALLAH and kind guidance and support of Worthy Vice Chancellor Prof. Dr. Ghulam Ashgar Channa, the Department of Pharmacy is ready to commence the first batch. The well qualified and dedicated Teaching Faculty have been recruited, well equipped laboratories facilities, well furnished spacious lecture halls equipped with multimedia facilities have been provided.\nThe Pharmacy is well rounded career blending science. The role of the Pharmacy is developing rapidly to meet the needs of modern health care systems. Ensuring accurate dispensing of prescribed medicines against prescriptions and providing sound advice on responsible self-medication remain vitally important parts of the service provided by Pharmacists. The Pharmacists have, however, recognized for",
+    "logo": "institute-of-pharmacy.jpeg",
+    "external_url": null
+  },
+  {
+    "name": "Institute Of Physiotherapy & Rehabilitation Sciences",
+    "city": "Larkana",
+    "description": "Introduction The first professional degree in physical therapy endorsed by the Higher Education Commission of Pakistan(HEC) comprises of 5 years (10 semesters). This degree program include foundational science courses, such as anatomy, physiology, histology, exercise physiology, neuroscience, biomechanics, pharmacology, pathology, and radiology/imaging, along with behavioral science courses, such as evidence-based practice and clinical reasoning. In this degree program the students also study the clinically-based courses include medical screening, examination tests and measures, diagnostic process, therapeutic interventions, outcomes assessment, and practice management. Vision: The vision of the Physical Therapy Program is to: Maintain the department's long tradition of leadership and exce",
+    "logo": "institute-of-physiotherapy-rehabilitation-sciences.jpg",
+    "external_url": null
+  }
+]
