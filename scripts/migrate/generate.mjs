@@ -196,8 +196,32 @@ const CAT_MAP = {
   tender: "tender",
   admission: "admission",
   admissions: "admission",
-  all: "circular",
+  // "all" is intentionally absent — those are re-derived from the title below.
 };
+
+// Re-derive a category from the notice title (first match wins, case-insensitive).
+// Applied only to source category "all"; explicit categories keep their mapping.
+const TITLE_RULES = [
+  ["examination", /result|time ?table|examination|supplementary|ospe|osce|practical|viva|date sheet/i],
+  ["admission", /admission|entry test|merit list|prospectus|eligibility/i],
+  ["tender", /tender|pre-?qualification|bid|quotation/i],
+  ["job", /job|appointment|interview|vacancy|recruitment|walk-?in/i],
+  ["circular", /notification|office order|circular|notice|calendar/i],
+];
+function classifyByTitle(title) {
+  for (const [cat, re] of TITLE_RULES) if (re.test(title || "")) return { cat, matched: true };
+  return { cat: "circular", matched: false }; // fallback
+}
+const classifyReport = { reclassified: {}, unmatched: [] };
+function mapCategory(rawCat, title) {
+  const rc = (rawCat || "").toLowerCase();
+  if (CAT_MAP[rc]) return CAT_MAP[rc];
+  // "all" (or anything unrecognised) → title-based classifier
+  const { cat, matched } = classifyByTitle(title);
+  classifyReport.reclassified[cat] = (classifyReport.reclassified[cat] || 0) + 1;
+  if (!matched) classifyReport.unmatched.push(title);
+  return cat;
+}
 const annRaw = readJson("announcements.json");
 const usedSlugs = new Set();
 let annStats = { total: 0, withPdf: 0, attachments: 0, badDate: 0, unmappedCat: 0 };
@@ -210,15 +234,19 @@ function uniqueSlug(s) {
   return slug;
 }
 
-const annRows = [];
+function annTuple({ title, slug, cat, body, published, attachments, photoUrl }) {
+  return `(${qNN(title)}, ${qNN(slug)}, ${q(cat)}::announcement_category, ${q(excerpt(body))}, ${qNN(body)}, ${qTs(published)}, ${qJson(attachments || [])}, ${q(photoUrl || null)})`;
+}
+
+// Single authoritative pass over announcements → SQL + stats + review.
+const allAnn = [];
+const catCounts = {};
 for (const a of annRaw) {
-  const rawCat = (a.category || "").toLowerCase();
-  let cat = CAT_MAP[rawCat];
-  if (!cat) { cat = "circular"; annStats.unmappedCat++; review.add("announcement", a.slug || a.title, "unmapped category -> circular", a.category); }
+  const cat = mapCategory(a.category, a.title);
+  catCounts[cat] = (catCounts[cat] || 0) + 1;
   const slug = uniqueSlug(a.slug ? slugify(a.slug) : slugify(a.title));
   const published = parseDate(a.date);
   if (!published) { annStats.badDate++; review.add("announcement", slug, "unparseable date", a.date); }
-
   const attachments = [];
   for (const link of a.pdf_links || []) {
     const r = resolvePdf(link);
@@ -226,20 +254,14 @@ for (const a of annRaw) {
     else review.add("announcement", slug, "attachment not resolved to local PDF", basenameFromUrl(link));
   }
   if (attachments.length) { annStats.withPdf++; annStats.attachments += attachments.length; }
-
-  const body = rewriteBody(a.body || "");
-  annRows.push(
-    `(${q(a.title)}, ${q(slug)}, ${q(cat)}::announcement_category, ${q(excerpt(body))}, ${q(body)}, ${qTs(published)}, ${qJson(attachments)})`,
-  );
+  allAnn.push(annTuple({ title: a.title, slug, cat, body: rewriteBody(a.body || ""), published, attachments, photoUrl: null }));
   annStats.total++;
 }
 
-// ==========================================================================
-// NEWS & EVENTS  (into announcements as news/event)
-// ==========================================================================
+// News & events → same table as news/event, images from images/news + slider.
 const EVENT_WORDS = /\b(camp|ceremon|convocation|drive|celebrat|walk|seminar|conference|workshop|festival|day|sports|gala|visit|distribution|inaugurat)/i;
 const neRaw = readJson("news_events.json");
-let neStats = { total: 0, news: 0, event: 0, withImg: 0, missingImg: 0 };
+const neStats = { total: 0, news: 0, event: 0, withImg: 0, missingImg: 0 };
 for (const a of neRaw) {
   const slug = uniqueSlug(a.slug ? slugify(a.slug) : slugify(a.title));
   const published = parseDate(a.date);
@@ -247,6 +269,7 @@ for (const a of neRaw) {
   const isEvent = EVENT_WORDS.test(`${a.title} ${a.body || ""}`);
   const cat = isEvent ? "event" : "news";
   isEvent ? neStats.event++ : neStats.news++;
+  catCounts[cat] = (catCounts[cat] || 0) + 1;
 
   let photoUrl = null;
   const imgs = a.images || [];
@@ -261,42 +284,8 @@ for (const a of neRaw) {
   if (imgs.length && !photoUrl) { neStats.missingImg++; review.add("news_event", slug, "images present but none resolved", `${imgs.length} refs`); }
   if (photoUrl) neStats.withImg++;
 
-  const body = rewriteBody(a.body || "");
-  annRows.push(
-    `(${q(a.title)}, ${q(slug)}, ${q(cat)}::announcement_category, ${q(excerpt(body))}, ${q(body)}, ${qTs(published)}, ${qJson([])}, ${q(photoUrl)})`,
-  );
-  neStats.total++;
-}
-
-// Emit announcements + news/events uniformly (full column set) in one pass.
-function annTuple({ title, slug, cat, body, published, attachments, photoUrl }) {
-  return `(${qNN(title)}, ${qNN(slug)}, ${q(cat)}::announcement_category, ${q(excerpt(body))}, ${qNN(body)}, ${qTs(published)}, ${qJson(attachments || [])}, ${q(photoUrl || null)})`;
-}
-const allAnn = [];
-usedSlugs.clear();
-for (const a of annRaw) {
-  const rawCat = (a.category || "").toLowerCase();
-  const cat = CAT_MAP[rawCat] || "circular";
-  const slug = uniqueSlug(a.slug ? slugify(a.slug) : slugify(a.title));
-  const published = parseDate(a.date);
-  const attachments = [];
-  for (const link of a.pdf_links || []) {
-    const r = resolvePdf(link);
-    if (r) attachments.push({ name: niceName(r.file), url: r.url, size_kb: r.size_kb });
-  }
-  allAnn.push(annTuple({ title: a.title, slug, cat, body: rewriteBody(a.body || ""), published, attachments, photoUrl: null }));
-}
-for (const a of neRaw) {
-  const slug = uniqueSlug(a.slug ? slugify(a.slug) : slugify(a.title));
-  const published = parseDate(a.date);
-  const isEvent = EVENT_WORDS.test(`${a.title} ${a.body || ""}`);
-  const cat = isEvent ? "event" : "news";
-  let photoUrl = null;
-  for (const u of a.images || []) {
-    const localRel = resolveImage(u, "news");
-    if (localRel && !photoUrl) photoUrl = pub("images", `news/${path.basename(localRel)}`);
-  }
   allAnn.push(annTuple({ title: a.title, slug, cat, body: rewriteBody(a.body || ""), published, attachments: [], photoUrl }));
+  neStats.total++;
 }
 
 const COLS = "insert into announcements (title, slug, category, excerpt, body, published_at, attachments, photo_url) values\n";
@@ -353,6 +342,51 @@ writeSql(
 );
 
 // ==========================================================================
+// DOWNLOADS  (from the scraped downloads-page table — the curated source)
+// ==========================================================================
+function downloadCategory(title) {
+  const t = title.toLowerCase();
+  if (/challan|fee/.test(t)) return "Fee Challans";
+  if (/plagiarism|turnitin|policy|criteria|standard operat|procedure/.test(t)) return "Policies";
+  if (/manual|quality assurance|performance evaluation|self assessment|assessment standard/.test(t)) return "Quality Assurance";
+  if (/prospectus|admission|entry test/.test(t)) return "Admissions";
+  if (/log ?book|curriculum|syllabus/.test(t)) return "Academics";
+  if (/form|application|proforma|questionnaire|survey|evaluation|review|resume|report/.test(t)) return "Forms & Proformas";
+  return "General";
+}
+const downloadStats = { total: 0, byCategory: {}, unresolved: 0 };
+{
+  const dlPage = pagesRaw.find((p) => p.slug === "downloads");
+  const rows = dlPage
+    ? [...(dlPage.body || "").matchAll(/\|\s*\d+\s*\|\s*([^|]+?)\s*\|\s*\[[^\]]*\]\((https?:\/\/[^)]+?\.pdf)\)/gi)]
+    : [];
+  const seenTitle = new Set();
+  const dlRows = [];
+  for (const m of rows) {
+    const title = m[1].trim();
+    if (seenTitle.has(title)) continue; // dedupe repeated table entries by title
+    seenTitle.add(title);
+    const r = resolvePdf(m[2].trim());
+    if (!r) {
+      downloadStats.unresolved++;
+      review.add("download", title, "PDF not resolved to local file", basenameFromUrl(m[2]));
+      continue;
+    }
+    const cat = downloadCategory(title);
+    downloadStats.byCategory[cat] = (downloadStats.byCategory[cat] || 0) + 1;
+    downloadStats.total++;
+    dlRows.push(`(${qNN(title)}, ${qNN(r.url)}, ${qNN(cat)}, ${qInt(r.size_kb)}, NULL)`);
+  }
+  if (dlRows.length) {
+    writeSql(
+      "05_downloads.sql",
+      `insert into downloads (title, file_url, category, file_size_kb, page_slug) values\n` +
+        dlRows.join(",\n") + ";\n",
+    );
+  }
+}
+
+// ==========================================================================
 // SLIDER  → images bucket under hero/
 // ==========================================================================
 let sliderCount = 0;
@@ -378,6 +412,11 @@ const byBucket = uploadPlan.reduce((acc, u) => {
   return acc;
 }, {});
 
+// Concatenate the per-table SQL (sorted by filename) into one self-contained file.
+const sqlFiles = fs.readdirSync(OUT_DIR).filter((f) => /^\d.*\.sql$/.test(f)).sort();
+const combined = sqlFiles.map((f) => `-- ${f}\n` + fs.readFileSync(path.join(OUT_DIR, f), "utf8")).join("\n");
+fs.writeFileSync(path.resolve(process.cwd(), "scripts/migrate/migration.sql"), combined);
+
 const summary = {
   institutes: instituteRows.length,
   faculty: facultyRaw.length,
@@ -386,15 +425,22 @@ const summary = {
   announcements_from_announcements: annRaw.length,
   announcements_from_news_events: neRaw.length,
   announcements_total: allAnn.length,
+  category_distribution: catCounts,
+  all_reclassified_by_title: classifyReport.reclassified,
+  all_reclassified_unmatched_count: classifyReport.unmatched.length,
   news_classified: neStats.news,
   event_classified: neStats.event,
   attachments_resolved: annStats.attachments,
   pages: pageStats,
+  downloads: downloadStats.total,
+  downloads_by_category: downloadStats.byCategory,
   slider_hero: sliderCount,
   upload_plan_total: uploadPlan.length,
   upload_by_group: byBucket,
   review_rows: reviewCount,
-  sql_batches: fileNo,
+  sql_files: sqlFiles.length,
 };
 fs.writeFileSync(path.join(OUT_DIR, "summary.json"), JSON.stringify(summary, null, 2));
 console.log(JSON.stringify(summary, null, 2));
+console.log("\n--- category:'all' → title-classifier unmatched (fell back to circular):", classifyReport.unmatched.length);
+classifyReport.unmatched.forEach((t) => console.log("   •", t));
