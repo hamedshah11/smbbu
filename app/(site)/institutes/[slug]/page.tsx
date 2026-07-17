@@ -58,7 +58,7 @@ export default async function InstitutePage({ params }: { params: Promise<{ slug
           <DuotonePhoto
             src={institute.hero_photo_url}
             alt={`${institute.name} campus`}
-            hero
+            plain
             className="min-h-64 md:min-h-full"
           />
         </div>

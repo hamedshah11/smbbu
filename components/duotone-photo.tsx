@@ -4,19 +4,20 @@ import { cn } from "@/lib/utils";
 export function DuotonePhoto({
   src,
   alt,
-  hero = false,
+  plain = false,
   className,
 }: {
   src: string | null;
   alt: string;
-  hero?: boolean;
+  /** Render the image in full colour (no grayscale/duotone overlays). */
+  plain?: boolean;
   className?: string;
 }) {
   return (
     <div
       className={cn(
-        "duotone relative bg-gradient-to-br from-green-soft/40 to-green-deep/50",
-        hero && "duotone-hero",
+        "relative bg-gradient-to-br from-green-soft/40 to-green-deep/50",
+        !plain && "duotone",
         className,
       )}
       role={src ? undefined : "img"}

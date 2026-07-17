@@ -111,14 +111,6 @@ body {
   mix-blend-mode: multiply;
 }
 
-.duotone-hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(127, 184, 137, 0.14);
-  mix-blend-mode: screen;
-}
-
 .duotone-thumb::before {
   background: linear-gradient(
     160deg,

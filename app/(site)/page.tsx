@@ -43,7 +43,7 @@ export default async function HomePage() {
             <DuotonePhoto
               src={hero.photo_url}
               alt={hero.title}
-              hero
+              plain
               className="min-h-64 md:min-h-full"
             />
           </div>

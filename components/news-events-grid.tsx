@@ -11,7 +11,8 @@ export function NewsEventsGrid({ items }: { items: Announcement[] }) {
           <DuotonePhoto
             src={item.photo_url}
             alt={item.title}
-            className="duotone-thumb aspect-[4/3] w-full rounded-sm"
+            plain
+            className="aspect-[4/3] w-full rounded-sm"
           />
           <p className="mt-4 font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-text-faint">
             {formatDateLong(item.published_at)} · {item.kicker ?? item.category}
