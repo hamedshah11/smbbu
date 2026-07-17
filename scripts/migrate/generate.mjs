@@ -200,27 +200,58 @@ const CAT_MAP = {
 };
 
 // Re-derive a category from the notice title (first match wins, case-insensitive).
-// Applied only to source category "all"; explicit categories keep their mapping.
+// The source site's own categories are unreliable (e.g. a fees challan tagged
+// "jobs", admission interviews tagged "examination"), so the title classifier
+// runs on EVERY record; the source category is only a fallback when no rule
+// matches. Rule ordering per editorial review:
+//   1. result / time table          → examination (always wins)
+//   2. "notice inviting tender"     → tender (strong phrase; a NIT for the
+//      examination department or for prospectus printing is still a tender)
+//   3. admission phrases            → admission ("for admission to" outranks
+//      "interview"; "entry test" can't be preceded by "result of" here because
+//      rule 1 already captured any "result …" title)
+//   4. tender terms                 → tender
+//   5. remaining examination terms  → examination (after tender, so tenders
+//      *about* the examination department don't land here)
+//   6. job terms                    → job ("interview" only reaches this rule
+//      when there was no admission context above)
+//   7. circular terms               → circular
 const TITLE_RULES = [
-  ["examination", /result|time ?table|examination|supplementary|ospe|osce|practical|viva|date sheet/i],
-  ["admission", /admission|entry test|merit list|prospectus|eligibility/i],
+  ["examination", /result|time ?table/i],
+  ["tender", /notice inviting tender/i],
+  ["admission", /for admission to|admission|entry test|merit list|prospectus|eligibility/i],
   ["tender", /tender|pre-?qualification|bid|quotation/i],
-  ["job", /job|appointment|interview|vacancy|recruitment|walk-?in/i],
+  ["examination", /examination|supplementary|ospe|osce|practical|viva|date sheet/i],
+  ["job", /\bjobs?\b|appointment|interview|vacanc|recruitment|walk-?in/i],
   ["circular", /notification|office order|circular|notice|calendar/i],
 ];
 function classifyByTitle(title) {
   for (const [cat, re] of TITLE_RULES) if (re.test(title || "")) return { cat, matched: true };
-  return { cat: "circular", matched: false }; // fallback
+  return { cat: "circular", matched: false };
 }
-const classifyReport = { reclassified: {}, unmatched: [] };
+const classifyReport = {
+  byTitle: {},          // final category counts for title-matched records
+  sourceOverrides: [],  // title verdict disagreed with an explicit source category
+  sourceFallback: {},   // unmatched title, kept explicit source category
+  unmatched: [],        // unmatched title AND no usable source category → circular
+};
 function mapCategory(rawCat, title) {
   const rc = (rawCat || "").toLowerCase();
-  if (CAT_MAP[rc]) return CAT_MAP[rc];
-  // "all" (or anything unrecognised) → title-based classifier
+  const sourceCat = CAT_MAP[rc] || null;
   const { cat, matched } = classifyByTitle(title);
-  classifyReport.reclassified[cat] = (classifyReport.reclassified[cat] || 0) + 1;
-  if (!matched) classifyReport.unmatched.push(title);
-  return cat;
+  if (matched) {
+    classifyReport.byTitle[cat] = (classifyReport.byTitle[cat] || 0) + 1;
+    if (sourceCat && sourceCat !== cat) {
+      classifyReport.sourceOverrides.push({ title, from: sourceCat, to: cat });
+    }
+    return cat;
+  }
+  if (sourceCat) {
+    classifyReport.sourceFallback[sourceCat] = (classifyReport.sourceFallback[sourceCat] || 0) + 1;
+    return sourceCat;
+  }
+  classifyReport.unmatched.push(title);
+  return "circular";
 }
 const annRaw = readJson("announcements.json");
 const usedSlugs = new Set();
