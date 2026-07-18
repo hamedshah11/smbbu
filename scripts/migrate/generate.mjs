@@ -9,6 +9,9 @@ import {
 } from "./lib.mjs";
 
 const review = new Review();
+// Structured rows mirroring the SQL output, for the REST-based applier
+// (scripts/migrate/finish.mjs) which works over HTTPS only.
+const rowsOut = { institutes: [], faculty: [], announcements: [], pages: [], downloads: [] };
 const uploadPlan = []; // { localPath, bucket, key }
 const planned = new Set();
 function plan(localRel, bucket, key) {
@@ -123,6 +126,17 @@ const instituteRows = institutesRaw.map((it, i) => {
     review.add("institute", slug, "logo file missing", it.logo);
   }
   const city = it.city || "";
+  rowsOut.institutes.push({
+    name: it.name,
+    code: instituteCode(it.name, slug),
+    slug,
+    city,
+    description: it.description || "",
+    website_url: it.external_url || null,
+    logo_url: logoUrl === "NULL" ? null : pub("images", `logos/${it.logo}`),
+    is_constituent: true,
+    sort_order: i + 1,
+  });
   return `(${qNN(it.name)}, ${qNN(instituteCode(it.name, slug))}, ${qNN(slug)}, ${qNN(city)}, ${qNN(it.description || "")}, ${q(it.external_url || null)}, ${logoUrl}, true, ${qInt(i + 1)})`;
 });
 writeSql(
@@ -174,6 +188,14 @@ const facultyRows = facultyRaw.map((f, i) => {
     : "NULL";
 
   const dept = f.department || (f.category ? f.category.replace(/^campus:/, "") : "General");
+  rowsOut.faculty.push({
+    name: f.name,
+    designation: f.designation || "Faculty Member",
+    department: dept,
+    institute_slug: instSlug || null,
+    photo_url: photoUrl === "NULL" ? null : pub("images", `faculty/${f.photo}`),
+    sort_order: i + 1,
+  });
   // faculty schema has no slug column; the truncate-then-insert makes plain inserts safe.
   return `(${qNN(f.name)}, ${qNN(f.designation || "Faculty Member")}, ${qNN(dept)}, ${instituteId}, ${photoUrl}, ${qInt(i + 1)})`;
 });
@@ -266,6 +288,16 @@ function uniqueSlug(s) {
 }
 
 function annTuple({ title, slug, cat, body, published, attachments, photoUrl }) {
+  rowsOut.announcements.push({
+    title,
+    slug,
+    category: cat,
+    excerpt: excerpt(body),
+    body,
+    published_at: published,
+    attachments: attachments || [],
+    photo_url: photoUrl || null,
+  });
   return `(${qNN(title)}, ${qNN(slug)}, ${q(cat)}::announcement_category, ${q(excerpt(body))}, ${qNN(body)}, ${qTs(published)}, ${qJson(attachments || [])}, ${q(photoUrl || null)})`;
 }
 
@@ -362,6 +394,7 @@ for (const p of pagesRaw) {
   const body = rewriteBody(p.body || "");
   const meta = CONTACT_META[slug] ? { contact: CONTACT_META[slug] } : {};
   const standfirst = excerpt(body.replace(/^#.*$/m, ""), 220);
+  rowsOut.pages.push({ slug, title: p.title || slug, standfirst, body, meta });
   pageRows.push(`(${qNN(slug)}, ${qNN(p.title || slug)}, ${q(standfirst)}, ${qNN(body)}, ${qJson(meta)})`);
   pageStats++;
 }
@@ -406,6 +439,7 @@ const downloadStats = { total: 0, byCategory: {}, unresolved: 0 };
     const cat = downloadCategory(title);
     downloadStats.byCategory[cat] = (downloadStats.byCategory[cat] || 0) + 1;
     downloadStats.total++;
+    rowsOut.downloads.push({ title, file_url: r.url, category: cat, file_size_kb: r.size_kb, page_slug: null });
     dlRows.push(`(${qNN(title)}, ${qNN(r.url)}, ${qNN(cat)}, ${qInt(r.size_kb)}, NULL)`);
   }
   if (dlRows.length) {
@@ -433,8 +467,9 @@ writeSql(
   `truncate announcements, faculty, institutes, pages, downloads restart identity cascade;\n`,
 );
 
-// ---- Upload plan + review + summary --------------------------------------
+// ---- Upload plan + rows + review + summary --------------------------------
 fs.writeFileSync(path.join(OUT_DIR, "upload-plan.json"), JSON.stringify(uploadPlan, null, 0));
+fs.writeFileSync(path.join(OUT_DIR, "rows.json"), JSON.stringify(rowsOut));
 const reviewCount = review.write();
 
 const byBucket = uploadPlan.reduce((acc, u) => {
