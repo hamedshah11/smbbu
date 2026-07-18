@@ -36,3 +36,22 @@ All data access goes through typed functions in `lib/queries.ts`. Components nev
 ## Admin panel
 
 Not yet built. `CLAUDE.md` specifies `/admin/*` as a separate route group with Supabase auth and plain shadcn styling (the public design tokens don't apply there).
+
+## Sustainable ops setup
+
+Three pieces remove all manual DB/deploy steps:
+
+1. **Claude Code environment** (for working sessions): allow `*.supabase.co`
+   + `api.supabase.com` in the environment's network policy, and set
+   `SUPABASE_DB_PASSWORD` + `SUPABASE_SERVICE_ROLE_KEY` as environment
+   variables. Claude can then run `supabase db push` and
+   `scripts/migrate/upload.mjs` directly.
+2. **CI** (`.github/workflows/db-migrations.yml`): applies
+   `supabase/migrations/**` automatically on push to main. Requires repo
+   secrets `SUPABASE_ACCESS_TOKEN` and `SUPABASE_DB_PASSWORD`.
+3. **Vercel**: auto-deploys the site on push; set the two
+   `NEXT_PUBLIC_SUPABASE_*` env vars in the Vercel project.
+
+Day-to-day content changes (notices, PDFs, faculty) belong in the /admin
+panel (to be built), not in migrations. Bulk imports like
+`scripts/migrate/` are one-time operations.
