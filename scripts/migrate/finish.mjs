@@ -82,57 +82,74 @@ async function insertBatched(table, items, { prefer, batch = 100 } = {}) {
 
 const report = { started_at: new Date().toISOString() };
 
-// 1. Snapshot current categories (the diff baseline).
-console.log("Snapshotting current announcements…");
-const prev = await fetchAll("announcements", "slug,category,title");
-console.log(`  snapshot: ${prev.length} rows`);
-report.snapshot_rows = prev.length;
+// Re-run behaviour: once the DB phase has completed (category-changes.csv
+// exists), re-runs skip straight to counts + uploads. The original category
+// baseline is gone from the DB after the first wipe, so recomputing the diff
+// on a re-run would produce garbage. Force a full redo with REDO_DB=1.
+const csvPath = "scripts/migrate/category-changes.csv";
+const snapshotPath = "scripts/migrate/prev-snapshot.json";
+const dbPhaseDone = fs.existsSync(csvPath) && !process.env.REDO_DB;
 
-// 2. Wipe content tables (children before parents).
-console.log("Wiping content tables…");
-for (const t of ["downloads", "faculty", "announcements", "pages", "institutes"]) {
-  await rest("DELETE", `${t}?id=not.is.null`);
-}
+if (dbPhaseDone) {
+  console.log("DB phase already done (category-changes.csv exists) — skipping to counts + uploads.");
+  report.db_phase = "skipped (already applied)";
+} else {
+  // 1. Snapshot current categories (the diff baseline). Persist it before the
+  //    wipe so a crash never loses the baseline.
+  console.log("Snapshotting current announcements…");
+  const prev = fs.existsSync(snapshotPath)
+    ? JSON.parse(fs.readFileSync(snapshotPath, "utf8"))
+    : await fetchAll("announcements", "slug,category,title");
+  fs.writeFileSync(snapshotPath, JSON.stringify(prev));
+  console.log(`  snapshot: ${prev.length} rows`);
+  report.snapshot_rows = prev.length;
 
-// 3. Insert.
-console.log("Inserting…");
-const instReturned = await insertBatched("institutes", rows.institutes, {
-  prefer: "return=representation",
-});
-const instIdBySlug = new Map(instReturned.map((r) => [r.slug, r.id]));
-const facultyRows = rows.faculty.map(({ institute_slug, ...rest }) => ({
-  ...rest,
-  institute_id: institute_slug ? (instIdBySlug.get(institute_slug) ?? null) : null,
-}));
-await insertBatched("faculty", facultyRows);
-await insertBatched("announcements", rows.announcements);
-await insertBatched("pages", rows.pages);
-await insertBatched("downloads", rows.downloads);
-
-// 4. Diff categories vs snapshot.
-console.log("Diffing categories vs snapshot…");
-const prevBySlug = new Map(prev.map((p) => [p.slug, p]));
-const changes = [];
-for (const a of rows.announcements) {
-  const p = prevBySlug.get(a.slug);
-  if (p && p.category !== a.category) {
-    changes.push({ slug: a.slug, title: a.title, old: p.category, new: a.category });
+  // 2. Wipe content tables (children before parents).
+  console.log("Wiping content tables…");
+  for (const t of ["downloads", "faculty", "announcements", "pages", "institutes"]) {
+    await rest("DELETE", `${t}?id=not.is.null`);
   }
+
+  // 3. Insert.
+  console.log("Inserting…");
+  const instReturned = await insertBatched("institutes", rows.institutes, {
+    prefer: "return=representation",
+  });
+  const instIdBySlug = new Map(instReturned.map((r) => [r.slug, r.id]));
+  const facultyRows = rows.faculty.map(({ institute_slug, ...rest }) => ({
+    ...rest,
+    institute_id: institute_slug ? (instIdBySlug.get(institute_slug) ?? null) : null,
+  }));
+  await insertBatched("faculty", facultyRows);
+  await insertBatched("announcements", rows.announcements);
+  await insertBatched("pages", rows.pages);
+  await insertBatched("downloads", rows.downloads);
+
+  // 4. Diff categories vs snapshot.
+  console.log("Diffing categories vs snapshot…");
+  const prevBySlug = new Map(prev.map((p) => [p.slug, p]));
+  const changes = [];
+  for (const a of rows.announcements) {
+    const p = prevBySlug.get(a.slug);
+    if (p && p.category !== a.category) {
+      changes.push({ slug: a.slug, title: a.title, old: p.category, new: a.category });
+    }
+  }
+  const newSlugs = new Set(rows.announcements.map((a) => a.slug));
+  const removed = prev.filter((p) => !newSlugs.has(p.slug));
+  const added = rows.announcements.filter((a) => !prevBySlug.has(a.slug));
+  const pairs = {};
+  for (const c of changes) pairs[`${c.old} -> ${c.new}`] = (pairs[`${c.old} -> ${c.new}`] || 0) + 1;
+  report.category_changes = { total: changes.length, pairs, added: added.length, removed: removed.length };
+  fs.writeFileSync(
+    csvPath,
+    "slug,old_category,new_category,title\n" +
+      changes
+        .map((c) => `"${c.slug}","${c.old}","${c.new}","${c.title.replace(/"/g, '""')}"`)
+        .join("\n") +
+      "\n",
+  );
 }
-const newSlugs = new Set(rows.announcements.map((a) => a.slug));
-const removed = prev.filter((p) => !newSlugs.has(p.slug));
-const added = rows.announcements.filter((a) => !prevBySlug.has(a.slug));
-const pairs = {};
-for (const c of changes) pairs[`${c.old} -> ${c.new}`] = (pairs[`${c.old} -> ${c.new}`] || 0) + 1;
-report.category_changes = { total: changes.length, pairs, added: added.length, removed: removed.length };
-fs.writeFileSync(
-  "scripts/migrate/category-changes.csv",
-  "slug,old_category,new_category,title\n" +
-    changes
-      .map((c) => `"${c.slug}","${c.old}","${c.new}","${c.title.replace(/"/g, '""')}"`)
-      .join("\n") +
-    "\n",
-);
 
 // 5. Row counts from the live database.
 report.db_counts = {};
@@ -155,6 +172,17 @@ async function uploadWorker() {
     const ext = path.extname(item.localPath).toLowerCase();
     const key = item.key.split("/").map(encodeURIComponent).join("/");
     try {
+      // Resumability: skip files that already exist (public buckets → HEAD).
+      const head = await fetch(`${BASE}/storage/v1/object/public/${item.bucket}/${key}`, {
+        method: "HEAD",
+      });
+      if (head.ok) {
+        uploadStats.ok++;
+        uploadStats.skipped = (uploadStats.skipped || 0) + 1;
+        const group = item.key.includes("/") ? `${item.bucket}/${item.key.split("/")[0]}` : item.bucket;
+        uploadStats.by_group[group] = (uploadStats.by_group[group] || 0) + 1;
+        continue;
+      }
       const bytes = fs.readFileSync(path.resolve(item.localPath));
       const res = await fetch(`${BASE}/storage/v1/object/${item.bucket}/${key}`, {
         method: "POST",
