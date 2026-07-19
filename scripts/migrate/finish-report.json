@@ -1,0 +1,53 @@
+{
+  "finished_at": "2026-07-19T00:43:31.680Z",
+  "method": "DB content was already loaded (pre-classifier migration.sql); storage fully uploaded by finisher session; final delta applied as a surgical category UPDATE (253 rows) + downloads INSERT (21 rows) via the Supabase MCP connector, then verified live.",
+  "db_counts_verified": {
+    "institutes": 6,
+    "faculty": 468,
+    "announcements": 805,
+    "pages": 12,
+    "downloads": 21
+  },
+  "announcements_by_category_verified": {
+    "examination": 331,
+    "circular": 129,
+    "admission": 121,
+    "tender": 58,
+    "job": 17,
+    "news": 49,
+    "event": 100
+  },
+  "category_changes": {
+    "total": 253,
+    "pairs": {
+      "job -> examination": 1,
+      "circular -> examination": 169,
+      "circular -> job": 14,
+      "examination -> admission": 2,
+      "circular -> admission": 48,
+      "circular -> tender": 1,
+      "examination -> circular": 1,
+      "tender -> circular": 4,
+      "tender -> admission": 2,
+      "admission -> circular": 6,
+      "admission -> job": 3,
+      "admission -> examination": 2
+    }
+  },
+  "storage_verified": {
+    "total": 1626,
+    "by_group": {
+      "pdfs": 470,
+      "images/news": 1096,
+      "images/faculty": 45,
+      "images/logos": 6,
+      "images/hero": 9
+    },
+    "failed": 0
+  },
+  "sentinels": {
+    "fees_challan": "examination",
+    "pg_entry_test_result": "examination",
+    "admission_interviews": "admission"
+  }
+}
