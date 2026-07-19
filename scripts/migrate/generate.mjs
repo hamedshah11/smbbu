@@ -8,6 +8,15 @@ import {
   parseDate, excerpt, normName, numericId, basenameFromUrl, Review, writeSql,
 } from "./lib.mjs";
 
+// Clean stale outputs first: the combined migration.sql globs every numbered
+// .sql file in out/, so leftovers from a previous run (e.g. with a different
+// batch size) would duplicate rows in it.
+if (fs.existsSync(OUT_DIR)) {
+  for (const f of fs.readdirSync(OUT_DIR)) {
+    if (/^\d.*\.sql$/.test(f)) fs.unlinkSync(path.join(OUT_DIR, f));
+  }
+}
+
 const review = new Review();
 // Structured rows mirroring the SQL output, for the REST-based applier
 // (scripts/migrate/finish.mjs) which works over HTTPS only.
