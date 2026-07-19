@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Breadcrumb } from "@/components/breadcrumb";
-import { DuotonePhoto } from "@/components/duotone-photo";
+import { FacultyAvatar } from "@/components/faculty-avatar";
 import { initials } from "@/lib/format";
 import { getDepartments, getFaculty } from "@/lib/queries";
 import type { FacultyMember } from "@/lib/types";
@@ -90,10 +90,10 @@ function TabLink({
 function FacultyCard({ member }: { member: FacultyMember }) {
   return (
     <div>
-      <DuotonePhoto
-        src={member.photo_url}
-        alt={member.name}
-        className="duotone-thumb aspect-square w-full rounded-sm"
+      <FacultyAvatar
+        photoUrl={member.photo_url}
+        name={member.name}
+        className="aspect-square w-full rounded-sm text-2xl"
       />
       <p className="mt-4 font-display text-base font-bold text-text-primary">{member.name}</p>
       <p className="font-display text-sm text-text-secondary">{member.designation}</p>

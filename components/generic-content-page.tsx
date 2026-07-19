@@ -1,6 +1,6 @@
 import { Breadcrumb } from "@/components/breadcrumb";
 import { CtaBand, type CtaBandProps } from "@/components/cta-band";
-import { DuotonePhoto } from "@/components/duotone-photo";
+import { Photo } from "@/components/photo";
 import { FadeUp } from "@/components/fade-up";
 import { Prose, type FeatureListState } from "@/components/prose";
 import { SectionNav } from "@/components/section-nav";
@@ -53,7 +53,7 @@ export async function GenericContentPage({
         {heroPhoto ? (
           <div className="mx-auto grid max-w-(--container-page) grid-cols-1 md:grid-cols-[1fr_500px]">
             <div className="px-5 pb-9 pt-8 md:px-10 md:pb-14 md:pt-11">{headerText}</div>
-            <DuotonePhoto src={heroPhoto} alt={page.title} plain className="min-h-64 md:min-h-full" />
+            <Photo src={heroPhoto} alt={page.title} className="min-h-64 md:min-h-full" />
           </div>
         ) : (
           <div className="mx-auto max-w-(--container-page) px-5 pb-9 pt-8 md:px-10 md:pb-14 md:pt-11">

@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { Chip } from "@/components/chip";
-import { DuotonePhoto } from "@/components/duotone-photo";
+import { FacultyAvatar } from "@/components/faculty-avatar";
+import { Photo } from "@/components/photo";
 import { initials } from "@/lib/format";
 import { getFacultyByInstitute, getInstituteBySlug, getInstitutes } from "@/lib/queries";
 
@@ -55,10 +56,9 @@ export default async function InstitutePage({ params }: { params: Promise<{ slug
               {institute.description}
             </p>
           </div>
-          <DuotonePhoto
+          <Photo
             src={institute.hero_photo_url}
             alt={`${institute.name} campus`}
-            plain
             className="min-h-64 md:min-h-full"
           />
         </div>
@@ -145,10 +145,10 @@ export default async function InstitutePage({ params }: { params: Promise<{ slug
             <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-3 md:grid-cols-5">
               {faculty.map((member) => (
                 <div key={member.id} className="text-center sm:text-left">
-                  <DuotonePhoto
-                    src={member.photo_url}
-                    alt={member.name}
-                    className="duotone-thumb mx-auto aspect-square w-20 rounded-full sm:mx-0 sm:w-full sm:rounded-sm"
+                  <FacultyAvatar
+                    photoUrl={member.photo_url}
+                    name={member.name}
+                    className="mx-auto aspect-square w-20 rounded-full text-sm sm:mx-0 sm:w-full sm:rounded-sm sm:text-xl"
                   />
                   <p className="mt-3 font-display text-sm font-bold text-text-primary sm:hidden">
                     {initials(member.name)}

@@ -1,25 +1,18 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-export function DuotonePhoto({
+export function Photo({
   src,
   alt,
-  plain = false,
   className,
 }: {
   src: string | null;
   alt: string;
-  /** Render the image in full colour (no grayscale/duotone overlays). */
-  plain?: boolean;
   className?: string;
 }) {
   return (
     <div
-      className={cn(
-        "relative bg-gradient-to-br from-green-soft/40 to-green-deep/50",
-        !plain && "duotone",
-        className,
-      )}
+      className={cn("relative bg-gradient-to-br from-green-soft/40 to-green-deep/50", className)}
       role={src ? undefined : "img"}
       aria-label={src ? undefined : alt}
     >

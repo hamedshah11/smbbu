@@ -139,14 +139,7 @@ Default `#256B2F` → hover `#15192B`. On dark: `rgba(245,243,234,.75)` → hove
 
 **Notice row** — desktop grid `64px date / 110px chip / 1fr title / 56px PDF`, gap 16px, padding 13px 8px, 1px `hairline-on-tint` divider. Mobile flex, date col 38px, padding 13px 0. Hover `bg-hover-row`, transition .15s. NEW badge: `● NEW` 8.5px/700/+0.1em `green-primary`.
 
-**Duotone photo treatment** — applies **only** to faculty headshots and small institute/thumbnail images. The homepage hero and news/event story images render in **full colour** (no grayscale, no overlays). There is no `screen` hero overlay anymore, since the hero is no longer duotone.
-```css
-/* duotone (faculty headshots, institute + news thumbnails) */
-img { filter: grayscale(1) contrast(1.06); }
-/* overlay 1 */ background: linear-gradient(160deg, rgba(18,37,26,.55), rgba(37,107,47,.35)); mix-blend-mode: multiply;
-/* thumbnails: overlay 1 at .5/.3 alpha */
-/* full colour (homepage hero, news/event story images): no filter, no overlay */
-```
+**Imagery** — full colour throughout the site. There is no duotone/grayscale treatment anywhere: faculty headshots, institute/news thumbnails, the homepage hero, and news/event story images all render unfiltered. Faculty and institute cards without a photo show a neutral initials avatar (`bg-chip-on-tint` background, `green-primary` text) instead of a placeholder block.
 
 ## Section bands & rhythm (homepage, top → bottom)
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Chip } from "@/components/chip";
 import { PillButton } from "@/components/pill-button";
-import { DuotonePhoto } from "@/components/duotone-photo";
+import { Photo } from "@/components/photo";
 import { NoticeRow } from "@/components/notice-row";
 import { NewsEventsGrid } from "@/components/news-events-grid";
 import { formatDateLong } from "@/lib/format";
@@ -40,12 +40,7 @@ export default async function HomePage() {
                 Read the story →
               </Link>
             </div>
-            <DuotonePhoto
-              src={hero.photo_url}
-              alt={hero.title}
-              plain
-              className="min-h-64 md:min-h-full"
-            />
+            <Photo src={hero.photo_url} alt={hero.title} className="min-h-64 md:min-h-full" />
           </div>
         </section>
       )}

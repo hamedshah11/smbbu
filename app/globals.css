@@ -90,35 +90,6 @@ body {
   font-family: var(--font-sindhi);
 }
 
-.duotone {
-  position: relative;
-  overflow: hidden;
-}
-
-.duotone img {
-  filter: grayscale(1) contrast(1.06);
-}
-
-.duotone::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    160deg,
-    rgba(18, 37, 26, 0.55),
-    rgba(37, 107, 47, 0.35)
-  );
-  mix-blend-mode: multiply;
-}
-
-.duotone-thumb::before {
-  background: linear-gradient(
-    160deg,
-    rgba(18, 37, 26, 0.5),
-    rgba(37, 107, 47, 0.3)
-  );
-}
-
 /* Numbered feature grid — applied to the first 3+ item list on content pages */
 .feature-grid {
   counter-reset: feature;
