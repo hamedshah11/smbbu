@@ -182,14 +182,14 @@ export const institutes: Institute[] = [
 ];
 
 export const faculty: FacultyMember[] = [
-  { id: "f1", name: "Prof. Dr. Shabnam Naz", designation: "Professor & Chairperson", department: "Anatomy", institute_id: "cmc", photo_url: null, email: null, sort_order: 1 },
-  { id: "f2", name: "Prof. Dr. Aftab A. Soomro", designation: "Professor", department: "Medicine", institute_id: "cmc", photo_url: null, email: null, sort_order: 2 },
-  { id: "f3", name: "Dr. Farzana Memon", designation: "Associate Professor", department: "Physiology", institute_id: "cmc", photo_url: null, email: null, sort_order: 3 },
-  { id: "f4", name: "Dr. Imran A. Sheikh", designation: "Associate Professor", department: "Surgery", institute_id: "cmc", photo_url: null, email: null, sort_order: 4 },
-  { id: "f5", name: "Dr. Sanam Bhutto", designation: "Assistant Professor", department: "Pathology", institute_id: "cmc", photo_url: null, email: null, sort_order: 5 },
-  { id: "f6", name: "Dr. Zulfiqar Laghari", designation: "Assistant Professor", department: "Medicine", institute_id: "cmc", photo_url: null, email: null, sort_order: 6 },
-  { id: "f7", name: "Dr. Rubina Chandio", designation: "Senior Lecturer", department: "Anatomy", institute_id: "cmc", photo_url: null, email: null, sort_order: 7 },
-  { id: "f8", name: "Dr. Waseem Abbasi", designation: "Lecturer", department: "Physiology", institute_id: "cmc", photo_url: null, email: null, sort_order: 8 },
+  { id: "f1", name: "Prof. Dr. Shabnam Naz", designation: "Professor & Chairperson", department: "Anatomy", department_slug: "anatomy", institute_id: "cmc", photo_url: null, email: null, sort_order: 1 },
+  { id: "f2", name: "Prof. Dr. Aftab A. Soomro", designation: "Professor", department: "Medicine", department_slug: "medicine", institute_id: "cmc", photo_url: null, email: null, sort_order: 2 },
+  { id: "f3", name: "Dr. Farzana Memon", designation: "Associate Professor", department: "Physiology", department_slug: "physiology", institute_id: "cmc", photo_url: null, email: null, sort_order: 3 },
+  { id: "f4", name: "Dr. Imran A. Sheikh", designation: "Associate Professor", department: "Surgery", department_slug: "surgery", institute_id: "cmc", photo_url: null, email: null, sort_order: 4 },
+  { id: "f5", name: "Dr. Sanam Bhutto", designation: "Assistant Professor", department: "Pathology", department_slug: "pathology", institute_id: "cmc", photo_url: null, email: null, sort_order: 5 },
+  { id: "f6", name: "Dr. Zulfiqar Laghari", designation: "Assistant Professor", department: "Medicine", department_slug: "medicine", institute_id: "cmc", photo_url: null, email: null, sort_order: 6 },
+  { id: "f7", name: "Dr. Rubina Chandio", designation: "Senior Lecturer", department: "Anatomy", department_slug: "anatomy", institute_id: "cmc", photo_url: null, email: null, sort_order: 7 },
+  { id: "f8", name: "Dr. Waseem Abbasi", designation: "Lecturer", department: "Physiology", department_slug: "physiology", institute_id: "cmc", photo_url: null, email: null, sort_order: 8 },
 ];
 
 export const announcements: Announcement[] = [

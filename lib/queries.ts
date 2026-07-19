@@ -3,6 +3,7 @@ import * as seed from "./seed-data";
 import type {
   Announcement,
   AnnouncementCategory,
+  Department,
   Download,
   FacultyMember,
   Institute,
@@ -181,24 +182,30 @@ export async function getFacultyByInstitute(
 }
 
 export async function getFaculty(opts: {
-  department?: string;
+  departmentSlug?: string;
 }): Promise<FacultyMember[]> {
   if (isSupabaseConfigured && supabase) {
     let query = supabase.from("faculty").select("*").order("sort_order");
-    if (opts.department) query = query.eq("department", opts.department);
+    if (opts.departmentSlug) query = query.eq("department_slug", opts.departmentSlug);
     const { data } = await query;
     return data ?? [];
   }
   let items = [...seed.faculty].sort((a, b) => a.sort_order - b.sort_order);
-  if (opts.department) items = items.filter((f) => f.department === opts.department);
+  if (opts.departmentSlug) items = items.filter((f) => f.department_slug === opts.departmentSlug);
   return items;
 }
 
-export async function getDepartments(): Promise<string[]> {
+export async function getDepartments(): Promise<Department[]> {
   const all = isSupabaseConfigured && supabase
-    ? ((await supabase.from("faculty").select("department")).data ?? [])
+    ? ((await supabase.from("faculty").select("department, department_slug")).data ?? [])
     : seed.faculty;
-  return Array.from(new Set(all.map((f) => f.department))).sort();
+  const bySlug = new Map<string, string>();
+  for (const f of all) {
+    if (f.department && f.department_slug) bySlug.set(f.department_slug, f.department);
+  }
+  return Array.from(bySlug, ([slug, name]) => ({ slug, name })).sort((a, b) =>
+    a.name.localeCompare(b.name),
+  );
 }
 
 export async function getPageBySlug(slug: string): Promise<Page | null> {

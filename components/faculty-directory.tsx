@@ -5,13 +5,13 @@ import { initials } from "@/lib/format";
 import { getDepartments, getFaculty } from "@/lib/queries";
 import type { FacultyMember } from "@/lib/types";
 
-export async function FacultyDirectory({ department }: { department?: string }) {
+export async function FacultyDirectory({ departmentSlug }: { departmentSlug?: string }) {
   const departments = await getDepartments();
-  const activeDepartment = department
-    ? departments.find((d) => d.toLowerCase() === department.toLowerCase())
+  const activeDepartment = departmentSlug
+    ? departments.find((d) => d.slug === departmentSlug)
     : undefined;
 
-  const members = await getFaculty({ department: activeDepartment });
+  const members = await getFaculty({ departmentSlug: activeDepartment?.slug });
 
   return (
     <section className="bg-bg-tint">
@@ -41,8 +41,8 @@ export async function FacultyDirectory({ department }: { department?: string }) 
             All
           </TabLink>
           {departments.map((d) => (
-            <TabLink key={d} href={`/faculty/${d.toLowerCase()}`} active={activeDepartment === d}>
-              {d}
+            <TabLink key={d.slug} href={`/faculty/${d.slug}`} active={activeDepartment?.slug === d.slug}>
+              {d.name}
             </TabLink>
           ))}
         </div>
@@ -97,9 +97,11 @@ function FacultyCard({ member }: { member: FacultyMember }) {
       />
       <p className="mt-4 font-display text-base font-bold text-text-primary">{member.name}</p>
       <p className="font-display text-sm text-text-secondary">{member.designation}</p>
-      <p className="mt-1 font-mono text-[0.625rem] font-medium uppercase tracking-[0.05em] text-green-primary">
-        {member.department}
-      </p>
+      {member.department && (
+        <p className="mt-1 font-mono text-[0.625rem] font-medium uppercase tracking-[0.05em] text-green-primary">
+          {member.department}
+        </p>
+      )}
     </div>
   );
 }
@@ -113,9 +115,11 @@ function FacultyListRow({ member }: { member: FacultyMember }) {
       <div>
         <p className="font-display text-base font-bold text-text-primary">{member.name}</p>
         <p className="font-display text-sm text-text-secondary">{member.designation}</p>
-        <p className="font-mono text-[0.625rem] font-medium uppercase tracking-[0.05em] text-green-primary">
-          {member.department}
-        </p>
+        {member.department && (
+          <p className="font-mono text-[0.625rem] font-medium uppercase tracking-[0.05em] text-green-primary">
+            {member.department}
+          </p>
+        )}
       </div>
     </div>
   );

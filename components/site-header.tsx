@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import type { Institute } from "@/lib/types";
+import type { Department, Institute } from "@/lib/types";
 
 type LinkItem = { label: string; href: string; external?: boolean };
 
@@ -46,7 +46,7 @@ type NavItem =
   | { label: string; href: string; dropdown?: never }
   | { label: string; href: string; dropdown: LinkItem[] };
 
-function buildNavItems(institutes: Institute[], departments: string[]): NavItem[] {
+function buildNavItems(institutes: Institute[], departments: Department[]): NavItem[] {
   return [
     { label: "Home", href: "/" },
     { label: "About", href: "/about/the-university", dropdown: ABOUT_LINKS },
@@ -66,7 +66,7 @@ function buildNavItems(institutes: Institute[], departments: string[]): NavItem[
       href: "/faculty",
       dropdown: [
         { label: "All Faculty", href: "/faculty" },
-        ...departments.map((d) => ({ label: d, href: `/faculty/${d.toLowerCase()}` })),
+        ...departments.map((d) => ({ label: d.name, href: `/faculty/${d.slug}` })),
       ],
     },
     { label: "Noticeboard", href: "/noticeboard", dropdown: NOTICEBOARD_LINKS },
@@ -79,7 +79,7 @@ export function SiteHeader({
   departments,
 }: {
   institutes: Institute[];
-  departments: string[];
+  departments: Department[];
 }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();

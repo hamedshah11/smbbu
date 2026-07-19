@@ -59,11 +59,17 @@ export type FacultyMember = {
   id: string;
   name: string;
   designation: string;
-  department: string;
+  department: string | null;
+  department_slug: string | null;
   institute_id: string | null;
   photo_url: string | null;
   email: string | null;
   sort_order: number;
+};
+
+export type Department = {
+  name: string;
+  slug: string;
 };
 
 export type RelatedLink = {
