@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { Chip } from "@/components/chip";
 import { FacultyAvatar } from "@/components/faculty-avatar";
+import { InstituteLogo } from "@/components/institute-logo";
 import { Photo } from "@/components/photo";
 import { initials } from "@/lib/format";
 import { getFacultyByInstitute, getInstituteBySlug, getInstitutes } from "@/lib/queries";
@@ -42,7 +43,13 @@ export default async function InstitutePage({ params }: { params: Promise<{ slug
                 { label: institute.code },
               ]}
             />
-            <div className="mt-4 flex flex-wrap items-center gap-3">
+            <InstituteLogo
+              logoUrl={institute.logo_url}
+              code={institute.code}
+              name={institute.name}
+              className="mt-5 h-16 w-16"
+            />
+            <div className="mt-5 flex flex-wrap items-center gap-3">
               <Chip>{institute.is_constituent ? "Constituent College" : "Institute"}</Chip>
               <span className="font-mono text-[0.6875rem] font-medium text-text-faint">
                 {institute.established_year ? `EST. ${institute.established_year} · ` : ""}

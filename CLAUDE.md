@@ -127,7 +127,7 @@ Default `#256B2F` → hover `#15192B`. On dark: `rgba(245,243,234,.75)` → hove
 ## Spacing & layout
 
 - Base unit 4px. Max content width **1200px** centered; gutters 40px desktop / 20px mobile.
-- 12-column grid. Hero split `1fr / 500px`, photo bleeds to page edge. Noticeboard `3 / 9`. Institutes 2-col, `gap: 0 56px`.
+- 12-column grid. Hero split `1fr / 500px`, photo bleeds to page edge. Noticeboard `3 / 9`. Institutes card grid, 2/3-col, `gap: 32px`.
 - Section padding: desktop 44–64px top / 48–68px bottom; mobile 26–36px / 30–40px.
 - Heading → content gap 20–28px. Card/column gap 40px. Footer: 4 columns, gap 40px, 56px top padding.
 

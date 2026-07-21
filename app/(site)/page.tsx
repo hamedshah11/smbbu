@@ -1,11 +1,26 @@
 import Link from "next/link";
 import { Chip } from "@/components/chip";
+import { InstituteLogo } from "@/components/institute-logo";
 import { PillButton } from "@/components/pill-button";
 import { Photo } from "@/components/photo";
 import { NoticeRow } from "@/components/notice-row";
 import { NewsEventsGrid } from "@/components/news-events-grid";
 import { formatDateLong } from "@/lib/format";
 import { getHomeFeed, getInstitutes, getNoticeboard, getVCMessage } from "@/lib/queries";
+
+const INSTITUTE_COUNT_WORDS = [
+  "Zero",
+  "One",
+  "Two",
+  "Three",
+  "Four",
+  "Five",
+  "Six",
+  "Seven",
+  "Eight",
+  "Nine",
+  "Ten",
+];
 
 export default async function HomePage() {
   const [{ hero, newsEvents }, { items: notices }, institutes, vcMessage] = await Promise.all([
@@ -168,31 +183,35 @@ export default async function HomePage() {
 
       <section id="institutes" className="bg-bg-tint-strong">
         <div className="mx-auto max-w-(--container-page) px-5 py-11 md:px-10 md:py-16">
-          <div className="flex items-center justify-between">
-            <h2 className="font-display text-[1.625rem] font-extrabold leading-[1.05] tracking-[-0.025em] text-text-primary md:text-[1.875rem]">
-              Eight institutes, one university.
-            </h2>
-          </div>
-          <div className="mt-7 grid grid-cols-1 gap-x-14 gap-y-0 md:grid-cols-2">
+          <h2 className="font-display text-[1.625rem] font-extrabold leading-[1.05] tracking-[-0.025em] text-text-primary md:text-[1.875rem]">
+            {INSTITUTE_COUNT_WORDS[institutes.length] ?? institutes.length} institutes, one university.
+          </h2>
+
+          <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
             {institutes.map((institute) => {
-              const rowClass =
-                "flex items-center gap-4 border-b border-hairline-on-tint-strong py-4 transition-colors hover:bg-bg-hover-row-alt";
+              const cardClass =
+                "flex flex-col gap-4 rounded-sm border border-hairline-on-tint-strong bg-bg-page p-6 transition-colors hover:bg-bg-hover-row-alt";
               const inner = (
                 <>
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-green-primary text-[9px] font-bold text-green-primary">
-                    {institute.code}
-                  </span>
-                  <span className="font-display text-[0.9375rem] font-bold text-text-primary">
-                    {institute.name}
-                    {institute.website_url && (
-                      <span aria-hidden="true" className="ml-1 text-green-primary">
-                        ↗
-                      </span>
-                    )}
-                  </span>
-                  <span className="ml-auto shrink-0 font-mono text-[0.6875rem] uppercase tracking-[0.05em] text-text-muted">
-                    {institute.city}
-                  </span>
+                  <InstituteLogo
+                    logoUrl={institute.logo_url}
+                    code={institute.code}
+                    name={institute.name}
+                    className="h-14 w-14"
+                  />
+                  <div>
+                    <p className="font-display text-[1.1875rem] font-bold leading-[1.25] tracking-[-0.015em] text-text-primary">
+                      {institute.name}
+                      {institute.website_url && (
+                        <span aria-hidden="true" className="ml-1 text-green-primary">
+                          ↗
+                        </span>
+                      )}
+                    </p>
+                    <p className="mt-2 font-mono text-[0.6875rem] font-medium uppercase tracking-[0.05em] text-text-muted">
+                      {institute.city}
+                    </p>
+                  </div>
                 </>
               );
               return institute.website_url ? (
@@ -201,12 +220,12 @@ export default async function HomePage() {
                   href={institute.website_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={rowClass}
+                  className={cardClass}
                 >
                   {inner}
                 </a>
               ) : (
-                <Link key={institute.id} href={`/institutes/${institute.slug}`} className={rowClass}>
+                <Link key={institute.id} href={`/institutes/${institute.slug}`} className={cardClass}>
                   {inner}
                 </Link>
               );
