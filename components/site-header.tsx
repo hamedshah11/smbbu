@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import crest from "@/public/crest.png";
 import { cn } from "@/lib/utils";
 import type { Department, Institute } from "@/lib/types";
 
@@ -125,9 +127,7 @@ export function SiteHeader({
       <div className="border-b border-hairline-strong">
         <div className="mx-auto flex max-w-(--container-page) items-center justify-between gap-6 px-5 py-4 md:px-10">
           <Link href="/" className="flex items-center gap-3">
-            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-hairline-strong text-[10px] font-bold text-green-primary">
-              SMBBMU
-            </span>
+            <Image src={crest} alt="SMBBMU crest" className="h-11 w-11 shrink-0" priority />
             <span className="leading-tight">
               <span className="block font-display text-[0.95rem] font-extrabold uppercase leading-tight text-text-primary">
                 Shaheed Mohtarma Benazir Bhutto

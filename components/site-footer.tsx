@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import crest from "@/public/crest.png";
 
 const COLUMNS = [
   {
@@ -44,9 +46,7 @@ export function SiteFooter() {
     <footer className="bg-green-deep">
       <div className="mx-auto max-w-(--container-page) px-5 pb-10 pt-14 md:px-10">
         <div className="flex items-center gap-3">
-          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-hairline-on-dark text-[10px] font-bold text-green-soft">
-            SMBBMU
-          </span>
+          <Image src={crest} alt="SMBBMU crest" className="h-11 w-11 shrink-0" />
           <span>
             <span className="block font-display text-base font-extrabold uppercase text-text-on-dark">
               Shaheed Mohtarma Benazir Bhutto Medical University, Larkana
