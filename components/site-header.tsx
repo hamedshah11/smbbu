@@ -125,9 +125,14 @@ export function SiteHeader({
       </div>
 
       <div className="border-b border-hairline-strong">
-        <div className="mx-auto flex max-w-(--container-page) items-center justify-between gap-6 px-5 py-4 md:px-10">
-          <Link href="/" className="flex items-center gap-3">
-            <Image src={crest} alt="SMBBMU crest" className="h-11 w-11 shrink-0" priority />
+        <div className="mx-auto flex max-w-(--container-page) items-center justify-between gap-6 px-5 py-5 md:px-10">
+          <Link href="/" className="flex items-center gap-4">
+            <Image
+              src={crest}
+              alt="SMBBMU crest"
+              className="h-16 w-16 shrink-0 md:h-20 md:w-20"
+              priority
+            />
             <span className="leading-tight">
               <span className="block font-display text-[0.95rem] font-extrabold uppercase leading-tight text-text-primary">
                 Shaheed Mohtarma Benazir Bhutto
@@ -135,7 +140,7 @@ export function SiteHeader({
               <span className="block font-display text-[0.95rem] font-extrabold uppercase leading-tight text-text-primary">
                 Medical University
               </span>
-              <span dir="rtl" className="block font-sindhi text-sm text-text-secondary">
+              <span dir="rtl" className="mt-1 block font-sindhi text-sm text-text-secondary">
                 شہید محترمہ بینظیر بھٹو میڈیکل یونیورسٹی لاڑکاڻو
               </span>
             </span>
