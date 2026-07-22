@@ -19,7 +19,9 @@ Official website rebuild for Shaheed Mohtarma Benazir Bhutto Medical University 
 6. Every image has meaningful `alt` text. Notices link their PDFs with file size shown.
 7. All dates display as `DD.MM` in mono within rows/feeds, and long-form ("11 July 2026") in detail pages.
 8. Old-site URLs must keep working — redirects are defined in `next.config.ts` from the migration map. Never delete a redirect.
+   - **8b.** Announcement, institute and faculty slugs already in the database are immutable. `slugify()` in `scripts/migrate/lib.mjs` was changed after those slugs were generated (`&` used to become "and", now it is dropped), so re-deriving slugs will produce different values for roughly 108 announcements and one institute whose names contain `&`. Never regenerate slugs against the live database — always derive from the stored value.
 9. Commit after every completed page/feature with a descriptive message.
+   - **9a.** Commit directly to `claude/new-session-h0pk5p` and push. Never create feature branches or open PRs — this is a solo repo and that branch is both default and production.
 10. No new colors, fonts, sizes, or spacing values. If a design need isn't covered by the tokens, stop and flag it — don't invent.
 
 ## Page templates (the whole site is these 8)
