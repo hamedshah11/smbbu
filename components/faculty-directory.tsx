@@ -1,9 +1,32 @@
 import Link from "next/link";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { FacultyAvatar } from "@/components/faculty-avatar";
-import { initials } from "@/lib/format";
 import { getDepartments, getFaculty } from "@/lib/queries";
 import type { FacultyMember } from "@/lib/types";
+
+type DepartmentGroup = {
+  slug: string;
+  name: string | null;
+  members: FacultyMember[];
+};
+
+function groupByDepartment(members: FacultyMember[]): DepartmentGroup[] {
+  const groups: DepartmentGroup[] = [];
+  const bySlug = new Map<string, DepartmentGroup>();
+  for (const member of members) {
+    // slug when present, else the display name — rows with neither share the trailing headerless group
+    const key = member.department_slug ?? member.department ?? "";
+    let group = bySlug.get(key);
+    if (!group) {
+      group = { slug: key, name: member.department, members: [] };
+      bySlug.set(key, group);
+      groups.push(group);
+    }
+    group.members.push(member);
+  }
+  // members without a department sink to the end, under no header
+  return groups.sort((a, b) => Number(a.name === null) - Number(b.name === null));
+}
 
 export async function FacultyDirectory({ departmentSlug }: { departmentSlug?: string }) {
   const departments = await getDepartments();
@@ -12,6 +35,7 @@ export async function FacultyDirectory({ departmentSlug }: { departmentSlug?: st
     : undefined;
 
   const members = await getFaculty({ departmentSlug: activeDepartment?.slug });
+  const groups = groupByDepartment(members);
 
   return (
     <section className="bg-bg-tint">
@@ -48,17 +72,21 @@ export async function FacultyDirectory({ departmentSlug }: { departmentSlug?: st
         </div>
       </div>
 
-      <div className="mx-auto max-w-(--container-page) border-t border-hairline-on-tint px-5 pb-14 pt-8 md:px-10">
-        <div className="hidden grid-cols-2 gap-x-8 gap-y-10 sm:grid md:grid-cols-4">
-          {members.map((member) => (
-            <FacultyCard key={member.id} member={member} />
-          ))}
-        </div>
-        <div className="divide-y divide-hairline-on-tint sm:hidden">
-          {members.map((member) => (
-            <FacultyListRow key={member.id} member={member} />
-          ))}
-        </div>
+      <div className="mx-auto max-w-(--container-page) space-y-12 border-t border-hairline-on-tint px-5 pb-14 pt-8 md:px-10">
+        {groups.map((group) => (
+          <section key={group.slug || "no-department"}>
+            {group.name && (
+              <h2 className="border-b border-hairline-on-tint pb-3 font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-green-primary">
+                {group.name}
+              </h2>
+            )}
+            <div className="mt-5 divide-y divide-hairline-on-tint sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 sm:divide-y-0 md:grid-cols-4">
+              {group.members.map((member) => (
+                <FacultyMemberItem key={member.id} member={member} />
+              ))}
+            </div>
+          </section>
+        ))}
       </div>
     </section>
   );
@@ -87,39 +115,17 @@ function TabLink({
   );
 }
 
-function FacultyCard({ member }: { member: FacultyMember }) {
+function FacultyMemberItem({ member }: { member: FacultyMember }) {
   return (
-    <div>
+    <div className="flex items-center gap-4 py-4 sm:block sm:py-0">
       <FacultyAvatar
         photoUrl={member.photo_url}
         name={member.name}
-        className="aspect-square w-full rounded-sm text-2xl"
+        className="h-12 w-12 shrink-0 rounded-full text-sm sm:aspect-square sm:h-auto sm:w-full sm:rounded-sm sm:text-2xl"
       />
-      <p className="mt-4 font-display text-base font-bold text-text-primary">{member.name}</p>
-      <p className="font-display text-sm text-text-secondary">{member.designation}</p>
-      {member.department && (
-        <p className="mt-1 font-mono text-[0.625rem] font-medium uppercase tracking-[0.05em] text-green-primary">
-          {member.department}
-        </p>
-      )}
-    </div>
-  );
-}
-
-function FacultyListRow({ member }: { member: FacultyMember }) {
-  return (
-    <div className="flex items-center gap-4 py-4">
-      <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-bg-chip-on-tint font-display text-sm font-bold text-green-primary">
-        {initials(member.name)}
-      </span>
-      <div>
+      <div className="sm:mt-4">
         <p className="font-display text-base font-bold text-text-primary">{member.name}</p>
         <p className="font-display text-sm text-text-secondary">{member.designation}</p>
-        {member.department && (
-          <p className="font-mono text-[0.625rem] font-medium uppercase tracking-[0.05em] text-green-primary">
-            {member.department}
-          </p>
-        )}
       </div>
     </div>
   );
