@@ -17,10 +17,11 @@ export function readJson(name) {
   return JSON.parse(fs.readFileSync(path.join(INPUT_DIR, name), "utf8"));
 }
 
+// Must stay in step with the generated department_slug column (migration 0003):
+// "&" is dropped like any other symbol, never expanded to "and".
 export function slugify(s) {
   return String(s)
     .toLowerCase()
-    .replace(/&/g, " and ")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }

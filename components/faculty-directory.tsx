@@ -37,6 +37,11 @@ export async function FacultyDirectory({ departmentSlug }: { departmentSlug?: st
   const members = await getFaculty({ departmentSlug: activeDepartment?.slug });
   const groups = groupByDepartment(members);
 
+  const faculties = departments.filter((d) => d.name.startsWith("Faculty of"));
+  const clinical = departments.filter((d) => !d.name.startsWith("Faculty of"));
+  // the two-tier chip row only makes sense when both tiers have entries
+  const tiered = faculties.length > 0 && clinical.length > 0;
+
   return (
     <section className="bg-bg-tint">
       <div className="mx-auto max-w-(--container-page) px-5 py-8 md:px-10 md:py-11">
@@ -60,16 +65,48 @@ export async function FacultyDirectory({ departmentSlug }: { departmentSlug?: st
           </p>
         </div>
 
-        <div className="mt-6 flex flex-wrap items-center gap-2">
-          <TabLink href="/faculty" active={!activeDepartment}>
-            All
-          </TabLink>
-          {departments.map((d) => (
-            <TabLink key={d.slug} href={`/faculty/${d.slug}`} active={activeDepartment?.slug === d.slug}>
-              {d.name}
+        {tiered ? (
+          <div className="mt-6 space-y-4">
+            <div>
+              <p className="font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-text-faint">
+                Faculties
+              </p>
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                <TabLink href="/faculty" active={!activeDepartment}>
+                  All
+                </TabLink>
+                {faculties.map((d) => (
+                  <TabLink key={d.slug} href={`/faculty/${d.slug}`} active={activeDepartment?.slug === d.slug}>
+                    {d.name}
+                  </TabLink>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p className="font-mono text-[0.625rem] font-medium uppercase tracking-[0.08em] text-text-faint">
+                Departments
+              </p>
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                {clinical.map((d) => (
+                  <TabLink key={d.slug} href={`/faculty/${d.slug}`} active={activeDepartment?.slug === d.slug}>
+                    {d.name}
+                  </TabLink>
+                ))}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="mt-6 flex flex-wrap items-center gap-2">
+            <TabLink href="/faculty" active={!activeDepartment}>
+              All
             </TabLink>
-          ))}
-        </div>
+            {departments.map((d) => (
+              <TabLink key={d.slug} href={`/faculty/${d.slug}`} active={activeDepartment?.slug === d.slug}>
+                {d.name}
+              </TabLink>
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="mx-auto max-w-(--container-page) space-y-12 border-t border-hairline-on-tint px-5 pb-14 pt-8 md:px-10">
