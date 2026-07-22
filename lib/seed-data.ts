@@ -348,7 +348,8 @@ export const announcements: Announcement[] = [
 
 export const pages: Page[] = [
   {
-    id: "p1", slug: "vc-message", title: "Vice Chancellor's Message", standfirst: null,
+    id: "p1", slug: "vc-message", title: "Vice Chancellor's Message",
+    standfirst: "I envision the university transformed into a place of academic excellence which produces critical thinkers, competent health professionals and community leaders.",
     body: "I envision the university transformed into a place of academic excellence which produces critical thinkers, competent health professionals and community leaders.",
     meta: { name: "Prof. Dr. Nusrat Shah", title: "Vice Chancellor, SMBBMU Larkana" },
     updated_at: "2026-06-01T09:00:00Z",

@@ -5,7 +5,7 @@ import { PillButton } from "@/components/pill-button";
 import { Photo } from "@/components/photo";
 import { NoticeRow } from "@/components/notice-row";
 import { NewsEventsGrid } from "@/components/news-events-grid";
-import { formatDateLong } from "@/lib/format";
+import { formatDateLong, initials } from "@/lib/format";
 import { getHomeFeed, getInstitutes, getNoticeboard, getVCMessage } from "@/lib/queries";
 
 const INSTITUTE_COUNT_WORDS = [
@@ -151,15 +151,15 @@ export default async function HomePage() {
               Vice Chancellor
             </p>
             <blockquote className="mt-6 max-w-3xl font-serif text-[1.25rem] font-medium leading-[1.45] text-text-on-dark md:text-[1.875rem] md:leading-[1.35] md:tracking-[-0.005em]">
-              &ldquo;{vcMessage.body}&rdquo;
+              &ldquo;{vcMessage.standfirst}&rdquo;
             </blockquote>
             <div className="mt-8 flex items-center justify-between gap-4">
               <div className="flex items-center gap-4">
                 <span
-                  className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border text-[10px] font-bold text-gold-accent"
+                  className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border font-display text-sm font-bold text-gold-accent"
                   style={{ borderColor: "var(--gold-accent-ring)" }}
                 >
-                  VC
+                  {initials(vcMessage.meta.name as string)}
                 </span>
                 <div>
                   <p className="font-display text-base font-bold text-gold-accent">
